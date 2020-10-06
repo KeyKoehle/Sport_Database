@@ -9,9 +9,7 @@ public class MySql {
     public void einlesen(Date Datum, String Verein_Heim, String Verein_Auswaerts, int Tore_Heim, int Tore_Auswaerts, int Spieltag, String Saison,  String Land, String Liga) throws SQLException {
         Connection myConnection = DriverManager.getConnection(url, user, password);
         checktableexist(Land,myConnection);
-        System.out.println(Datum+" "+Verein_Heim+" "+Verein_Auswaerts+" "+Tore_Heim+" "+Tore_Auswaerts+" "+Spieltag+" "+Saison);
         PreparedStatement Statement = myConnection.prepareStatement("Select * from "+Land+ " WHERE verein_heim = "+"'"+Verein_Heim+"'"+" AND verein_auswaerts = " +"'"+Verein_Auswaerts+"'"+ " AND datum = " +"'"+ Datum+"'");
-        System.out.println(Statement);
         ResultSet result = Statement.executeQuery();
         if(!result.next()) {
             Statement myStatement = myConnection.createStatement();
