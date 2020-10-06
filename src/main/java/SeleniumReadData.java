@@ -2,7 +2,6 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -72,13 +71,13 @@ public class SeleniumReadData {
         heimmannschaft = driver.findElements(By.className("event__participant--home"));
         endstand = driver.findElements(By.className("event__scores"));
         auswaertsmannschaft = driver.findElements(By.className("event__participant--away"));
-        halbzeitstand = driver.findElements(By.className("event__part"));
+        //halbzeitstand = driver.findElements(By.className("event__part"));
         System.out.println("Spieltag: "+spieltag.size());
         System.out.println("Datum: "+datum.size());
         System.out.println("Heimmannschaft: "+heimmannschaft.size());
         System.out.println("Endstand: "+endstand.size());
         System.out.println("Auswaertsmannschaft: "+auswaertsmannschaft.size());
-        System.out.println("halbzeitstand: "+halbzeitstand.size());
+        //System.out.println("halbzeitstand: "+halbzeitstand.size());
         checkdata(spieltag, datum, heimmannschaft, endstand, auswaertsmannschaft, halbzeitstand,land);
         driver.close();
     }
@@ -124,16 +123,16 @@ public class SeleniumReadData {
                     awaygoals = Integer.parseInt(endstand.get(i).getText().replaceAll("\n", "").substring(4, 5));
                 }
             }
-            boolean keinhalbzeitstand = false;
-            if(halbzeitstand.size() > 2) {
-                homegoalsht = Integer.parseInt(halbzeitstand.get(i - korrekttur).getText().substring(1, 2));
-                awaygoalsht = Integer.parseInt(halbzeitstand.get(i - korrekttur).getText().substring(5, 6));
-            }
-            else {
-                keinhalbzeitstand = true;
-            }
-            home = heimmannschaft.get(i).getText();
-            away = auswaertsmannschaft.get(i).getText();
+//            boolean keinhalbzeitstand = false;
+//            if(halbzeitstand.size() > 2) {
+//                homegoalsht = Integer.parseInt(halbzeitstand.get(i - korrekttur).getText().substring(1, 2));
+//                awaygoalsht = Integer.parseInt(halbzeitstand.get(i - korrekttur).getText().substring(5, 6));
+//            }
+//            else {
+//                keinhalbzeitstand = true;
+//            }
+            home = heimmannschaft.get(i).getText().replace("'", "\\'");;
+            away = auswaertsmannschaft.get(i).getText().replace("'", "\\'");;
             gamedaysql = 1000;
             if (gameday.length() == 11 || gameday.length() == 12) {
                 if (gameday.length() == 11) {
@@ -145,12 +144,11 @@ public class SeleniumReadData {
             } else {
                 gamedaysql = 1000;
             }
-            if (gamedaysql < 500 && keinhalbzeitstand == false) {
+            if (gamedaysql < 500 ) { //keinhalbzeitstand == false
                 MySql data = new MySql();
-                data.einlesen(sqldate, home, away, homegoals, awaygoals, gamedaysql, saison, homegoalsht,awaygoalsht, land, liga);
+                data.einlesen(sqldate, home, away, homegoals, awaygoals, gamedaysql, saison,  land, liga);
             } else {
-                MySql data = new MySql();
-                data.einlesen(sqldate, home, away, homegoals, awaygoals, gamedaysql, saison, Types.INTEGER,Types.INTEGER, land, liga);
+
             }
         }
     }

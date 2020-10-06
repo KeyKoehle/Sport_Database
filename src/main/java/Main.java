@@ -39,18 +39,20 @@ public class Main {
         while(linereader != null){
             if(linereader.contains("XXX")){
                 land = linereader.substring(3);
-                System.out.println("Land: "+land+"IF:"+counter);
                 linereader=reader.readLine();
                 counter++;
             }else {
                 switch(Saisoncounter){
                     case 1:
+                        System.out.println(land+" "+linereader+" "+Saison1);
                         data.readWebsite(land,linereader,Saison1);
                         Saisoncounter++;
                     case 2:
+                        System.out.println(land+" "+linereader+" "+Saison2);
                         data.readWebsite(land,linereader,Saison2);
                         Saisoncounter++;
                     case 3:
+                        System.out.println(land+" "+linereader+" "+Saison3);
                         data.readWebsite(land,linereader,Saison3);
                         Saisoncounter++;
                     default:
