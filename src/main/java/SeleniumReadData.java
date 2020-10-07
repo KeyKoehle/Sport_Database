@@ -6,6 +6,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.sql.Types;
 import java.text.ParseException;
@@ -28,8 +30,10 @@ public class SeleniumReadData {
     public static List<WebElement> endstand;
     public static List<WebElement> auswaertsmannschaft;
     public static List<WebElement> halbzeitstand;
+    public static List<WebElement> neu;
 
-    public void readWebsite(String land, String liga, String saison) throws InterruptedException, ParseException, SQLException, FileNotFoundException {
+
+    public void readWebsite(String land, String liga, String saison) throws InterruptedException, ParseException, SQLException, IOException {
         System.out.println("Start ReadWebsite");
         this.saison = saison;
         this.land = land;
@@ -37,7 +41,7 @@ public class SeleniumReadData {
         // EInstellungen für den Browser setzen
         System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 
@@ -57,29 +61,63 @@ public class SeleniumReadData {
             js.executeScript("window.scrollBy(0,250)");
             action = new Actions(driver);
             action.moveToElement(element).click().perform();
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebDriverWait wait = new WebDriverWait(driver, 60);
             wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.className("event__participant--home"), anzahlElemente));
             anzahlElemente = driver.findElements(By.className("event__participant--home")).size();
         }
         listdata(driver,land);
     }
 
-    public void listdata(WebDriver driver,String land) throws ParseException, SQLException, InterruptedException, FileNotFoundException {
+    public void listdata(WebDriver driver,String land) throws ParseException, SQLException, InterruptedException, IOException {
         System.out.println("Start Listdata");
+        neu = driver.findElements(By.className("event__match--oneLine"));
         spieltag = driver.findElements(By.className("event__round"));
-        datum = driver.findElements(By.className("event__time"));
-        heimmannschaft = driver.findElements(By.className("event__participant--home"));
-        endstand = driver.findElements(By.className("event__scores"));
-        auswaertsmannschaft = driver.findElements(By.className("event__participant--away"));
-        //halbzeitstand = driver.findElements(By.className("event__part"));
-        System.out.println("Spieltag: "+spieltag.size());
-        System.out.println("Datum: "+datum.size());
-        System.out.println("Heimmannschaft: "+heimmannschaft.size());
-        System.out.println("Endstand: "+endstand.size());
-        System.out.println("Auswaertsmannschaft: "+auswaertsmannschaft.size());
-        //System.out.println("halbzeitstand: "+halbzeitstand.size());
-        checkdata(spieltag, datum, heimmannschaft, endstand, auswaertsmannschaft, halbzeitstand,land);
+            FileWriter writer = new FileWriter("reader.txt");
+            String za = "";
+            boolean ht = false;
+            gameday = spieltag.get(0).getText();
+            int x= 0;
+
+            for(int i = 0; i < neu.size(); i++) {
+                if (x + 1 < spieltag.size()) {
+                    if (neu.get(i).getLocation().getY() > spieltag.get(x).getLocation().getY() && neu.get(i).getLocation().getY() < spieltag.get(x + 1).getLocation().getY()) {
+                    } else {
+                        x++;
+                        gameday = spieltag.get(x).getText();
+                    }
+                }
+                ht = true;
+                za = neu.get(i).getText();
+                if(!za.contains("(") || za.contains("Beschluss")){
+                    ht = false;
+                }
+                if(ht){
+                    writer.write(gameday+"#HT# \n");
+                    writer.write(za+"\n");
+                }
+                else {
+                    writer.write(gameday+"no Halftime \n");
+                    writer.write(za+"\n");
+                }
+            }
+            writer.close();
+
+
+//        spieltag = driver.findElements(By.className("event__round"));
+//        datum = driver.findElements(By.className("event__time"));
+//        heimmannschaft = driver.findElements(By.className("event__participant--home"));
+//        endstand = driver.findElements(By.className("event__scores"));
+//        auswaertsmannschaft = driver.findElements(By.className("event__participant--away"));
+//        //halbzeitstand = driver.findElements(By.className("event__part"));
+//        System.out.println("Spieltag: "+spieltag.size());
+//        System.out.println("Datum: "+datum.size());
+//        System.out.println("Heimmannschaft: "+heimmannschaft.size());
+//        System.out.println("Endstand: "+endstand.size());
+//        System.out.println("Auswaertsmannschaft: "+auswaertsmannschaft.size());
+//        //System.out.println("halbzeitstand: "+halbzeitstand.size());
+//        checkdata(spieltag, datum, heimmannschaft, endstand, auswaertsmannschaft, halbzeitstand,land);
         driver.close();
+        driver.quit();
     }
 
     public void checkdata(List<WebElement> spieltag, List<WebElement> datum, List<WebElement> heimmannschaft,

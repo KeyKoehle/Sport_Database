@@ -47,17 +47,21 @@ public class Main {
                         System.out.println(land+" "+linereader+" "+Saison1);
                         data.readWebsite(land,linereader,Saison1);
                         Saisoncounter++;
+                        break;
                     case 2:
                         System.out.println(land+" "+linereader+" "+Saison2);
                         data.readWebsite(land,linereader,Saison2);
                         Saisoncounter++;
+                        break;
                     case 3:
                         System.out.println(land+" "+linereader+" "+Saison3);
                         data.readWebsite(land,linereader,Saison3);
                         Saisoncounter++;
+                        break;
                     default:
                         linereader=reader.readLine();
                         Saisoncounter = 1;
+                        break;
                 }
             }
         }
