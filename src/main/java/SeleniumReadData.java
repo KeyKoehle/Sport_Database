@@ -5,9 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.sql.SQLException;
 import java.sql.Types;
 import java.text.ParseException;
@@ -47,7 +45,7 @@ public class SeleniumReadData {
 
         //Zu Website navigieren
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.navigate().to("https://www.scoreboard.com/de/fussball/" + land + "/" + liga + "-" + saison + "/ergebnisse/");
+        driver.navigate().to("https://www.scoreboard.com/de/fussball/" + land + "/" + liga + saison + "/ergebnisse/");
         Thread.sleep(1000);
         //"Mehr Spiele Anzeigen" Button betätigen, wenn vorhanden
         if (driver.findElements(By.id("onetrust-accept-btn-handler")).size() != 0) {
@@ -64,6 +62,7 @@ public class SeleniumReadData {
             WebDriverWait wait = new WebDriverWait(driver, 60);
             wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.className("event__participant--home"), anzahlElemente));
             anzahlElemente = driver.findElements(By.className("event__participant--home")).size();
+            Thread.sleep(1500);
         }
         listdata(driver,land);
     }
@@ -75,6 +74,7 @@ public class SeleniumReadData {
             FileWriter writer = new FileWriter("reader.txt");
             String za = "";
             boolean ht = false;
+            boolean es = false;
             gameday = spieltag.get(0).getText();
             int x= 0;
 
@@ -91,15 +91,34 @@ public class SeleniumReadData {
                 if(!za.contains("(") || za.contains("Beschluss")){
                     ht = false;
                 }
+                if(za.contains("n.E.")){
+                    es = true;
+                }
+                if(gameday.contains("Spieltag")){
                 if(ht){
-                    writer.write(gameday+"#HT# \n");
-                    writer.write(za+"\n");
+                    if(es){
+                        writer.write(gameday+"\n");
+                        writer.write("#ES\n");
+                        writer.write(za+"\n");
+                    }else{
+                        writer.write(gameday+"\n");
+                        writer.write(za+"\n");
+                    }
                 }
                 else {
-                    writer.write(gameday+"no Halftime \n");
-                    writer.write(za+"\n");
+                    if(es){
+                        writer.write(gameday+"\n");
+                        writer.write("#NOHT"+"#ES\n");
+                        writer.write(za+"\n");
+                    }else{
+                        writer.write(gameday+"\n");
+                        writer.write("#NOHT\n");
+                        writer.write(za+"\n");
+                    }
+                }
                 }
             }
+
             writer.close();
 
 
@@ -118,6 +137,27 @@ public class SeleniumReadData {
 //        checkdata(spieltag, datum, heimmannschaft, endstand, auswaertsmannschaft, halbzeitstand,land);
         driver.close();
         driver.quit();
+    }
+
+    public void readout () throws IOException {
+        FileReader file = new FileReader("C:\\Users\\Kai\\IdeaProjects\\Sport_Database\\reader.txt");
+        BufferedReader reader = new BufferedReader(file);
+
+        String line = reader.readLine();
+        while(line != null){
+            if(!line.contains("Spieltag")){
+                gameday = line;
+                if (gameday.length() == 11) {
+                    gamedaysql = Integer.parseInt(gameday.substring(0, 1));
+                }else{
+                    gamedaysql = Integer.parseInt(gameday.substring(0, 2));
+                }
+              line = reader.readLine();
+            }
+            if(line.contains("#NOHT")){
+
+            }
+        }
     }
 
     public void checkdata(List<WebElement> spieltag, List<WebElement> datum, List<WebElement> heimmannschaft,
