@@ -1,2448 +1,2316 @@
-34. Spieltag
-12.05. 15:30
-Bayer Leverkusen
-3
- - 
-2
-Hannover 96
-(2 - 0)
-34. Spieltag
-12.05. 15:30
-Bayern München
-1
- - 
-4
-VfB Stuttgart
-(1 - 2)
-34. Spieltag
-12.05. 15:30
-FC Schalke 04
-1
- - 
-0
-Eintracht Frankfurt
-(1 - 0)
-34. Spieltag
-12.05. 15:30
-FSV Mainz 05
-1
- - 
-2
-Werder Bremen
-(1 - 1)
-34. Spieltag
-12.05. 15:30
-Hertha BSC
-2
- - 
-6
-RB Leipzig
-(1 - 3)
-34. Spieltag
-12.05. 15:30
-HSV
-2
- - 
-1
-Borussia Mönchengladbach
-(1 - 1)
-34. Spieltag
-12.05. 15:30
-SC Freiburg
+28. Spieltag
+$
+20.05. 22:00
+Al Ahly
 2
  - 
 0
-FC Augsburg
-(0 - 0)
-34. Spieltag
-12.05. 15:30
-TSG Hoffenheim
-3
- - 
-1
-Borussia Dortmund
+El Masry
 (1 - 0)
-34. Spieltag
-12.05. 15:30
-VfL Wolfsburg
-4
- - 
-1
-1. FC Köln
-(1 - 1)
-33. Spieltag
-05.05. 15:30
-1. FC Köln
-1
- - 
-3
-Bayern München
-(1 - 0)
-33. Spieltag
-05.05. 15:30
-Borussia Dortmund
-1
- - 
-2
-FSV Mainz 05
-(1 - 2)
-33. Spieltag
-05.05. 15:30
-Borussia Mönchengladbach
-3
- - 
-1
-SC Freiburg
-(1 - 0)
-33. Spieltag
-05.05. 15:30
-Eintracht Frankfurt
-3
- - 
-0
-HSV
-(1 - 0)
-33. Spieltag
-05.05. 15:30
-FC Augsburg
-1
- - 
-2
-FC Schalke 04
-(1 - 2)
-33. Spieltag
-05.05. 15:30
-Hannover 96
-3
- - 
-1
-Hertha BSC
-(3 - 0)
-33. Spieltag
-05.05. 15:30
-RB Leipzig
-4
- - 
-1
-VfL Wolfsburg
-(2 - 0)
-33. Spieltag
-05.05. 15:30
-VfB Stuttgart
-2
- - 
-0
-TSG Hoffenheim
-(1 - 0)
-33. Spieltag
-05.05. 15:30
-Werder Bremen
-0
- - 
-0
-Bayer Leverkusen
-(0 - 0)
-32. Spieltag
-29.04. 18:00
-Werder Bremen
+24. Spieltag
+$
+11.05. 19:00
+Ismaily
 1
  - 
 1
-Borussia Dortmund
-(1 - 1)
-32. Spieltag
-29.04. 15:30
-FSV Mainz 05
-3
- - 
-0
-RB Leipzig
-(1 - 0)
-32. Spieltag
-28.04. 18:30
-Bayer Leverkusen
-0
- - 
-1
-VfB Stuttgart
-(0 - 0)
-32. Spieltag
-28.04. 15:30
-Bayern München
-4
- - 
-1
-Eintracht Frankfurt
-(1 - 0)
-32. Spieltag
-28.04. 15:30
-FC Schalke 04
-1
- - 
-1
-Borussia Mönchengladbach
-(1 - 1)
-32. Spieltag
-28.04. 15:30
-Hertha BSC
-2
- - 
-2
-FC Augsburg
+El Masry
 (0 - 1)
 32. Spieltag
-28.04. 15:30
-SC Freiburg
-3
- - 
-2
-1. FC Köln
-(1 - 0)
-32. Spieltag
-28.04. 15:30
-VfL Wolfsburg
+$
+02.05. 16:30
+El Masry
 1
  - 
+1
+Enppi
+(0 - 0)
+30. Spieltag
+$
+29.04. 19:00
+El Daklyeh
+0
+ - 
 3
-HSV
+El Masry
 (0 - 2)
-32. Spieltag
-27.04. 20:30
-TSG Hoffenheim
+34. Spieltag
+$
+27.04. 20:15
+Arab Contractors
+0
+ - 
+1
+Misr Elmaqasah
+(0 - 1)
+34. Spieltag
+$
+27.04. 20:15
+El Entag El Harby
+2
+ - 
+1
+Petrojet
+(1 - 0)
+34. Spieltag
+$
+27.04. 18:00
+Ismaily
+2
+ - 
+0
+Al Nasr
+(0 - 0)
+34. Spieltag
+$
+27.04. 15:45
+El Raja
+2
+ - 
+2
+Al Ittihad
+(0 - 1)
+34. Spieltag
+$
+26.04. 20:00
+Al Ahly
+1
+ - 
+2
+Zamalek
+(0 - 2)
+34. Spieltag
+$
+26.04. 15:45
+Pyramids
+1
+ - 
+1
+El Gaish
+(1 - 1)
+34. Spieltag
+$
+25.04. 18:00
+El Masry
+2
+ - 
+1
+Smouha
+(0 - 0)
+34. Spieltag
+$
+25.04. 15:45
+El Daklyeh
+1
+ - 
+1
+Wadi Degla
+(0 - 1)
+34. Spieltag
+$
+25.04. 15:45
+Enppi
 3
  - 
 1
-Hannover 96
-(1 - 1)
-31. Spieltag
-22.04. 18:00
-1. FC Köln
+Tanta
+(3 - 0)
+33. Spieltag
+$
+23.04. 20:15
+Misr Elmaqasah
 2
  - 
-2
-FC Schalke 04
+0
+Al Ittihad
+(2 - 0)
+33. Spieltag
+$
+23.04. 18:00
+El Gaish
+4
+ - 
+5
+Arab Contractors
 (1 - 2)
-31. Spieltag
+33. Spieltag
+$
+22.04. 20:00
+Zamalek
+2
+ - 
+1
+Pyramids
+(1 - 0)
+33. Spieltag
+$
+22.04. 17:45
+Petrojet
+1
+ - 
+2
+Al Ahly
+(0 - 1)
+33. Spieltag
+$
 22.04. 15:30
-FC Augsburg
+El Raja
+0
+ - 
+0
+Ismaily
+(0 - 0)
+33. Spieltag
+$
+21.04. 20:15
+Al Nasr
+1
+ - 
+2
+Enppi
+(1 - 1)
+33. Spieltag
+$
+21.04. 18:00
+Smouha
+1
+ - 
+0
+El Daklyeh
+(0 - 0)
+33. Spieltag
+$
+21.04. 18:00
+Tanta
+1
+ - 
+2
+El Masry
+(0 - 0)
+33. Spieltag
+$
+21.04. 18:00
+Wadi Degla
+2
+ - 
+1
+El Entag El Harby
+(1 - 1)
+32. Spieltag
+$
+18.04. 20:00
+Arab Contractors
+0
+ - 
+0
+Zamalek
+(0 - 0)
+32. Spieltag
+$
+18.04. 17:30
+Ismaily
+2
+ - 
+1
+Misr Elmaqasah
+(1 - 0)
+32. Spieltag
+$
+17.04. 17:30
+Al Ahly
+1
+ - 
+0
+Wadi Degla
+(1 - 0)
+32. Spieltag
+$
+17.04. 17:30
+El Entag El Harby
+0
+ - 
+0
+Smouha
+(0 - 0)
+32. Spieltag
+$
+17.04. 15:30
+El Daklyeh
 2
  - 
 0
-FSV Mainz 05
-(1 - 0)
-31. Spieltag
-21.04. 18:30
-Borussia Dortmund
-4
- - 
-0
-Bayer Leverkusen
-(1 - 0)
-31. Spieltag
-21.04. 15:30
-Eintracht Frankfurt
-0
- - 
+Tanta
+(0 - 0)
+32. Spieltag
+$
+16.04. 20:00
+Al Nasr
 3
-Hertha BSC
-(0 - 0)
-31. Spieltag
-21.04. 15:30
-Hannover 96
-0
- - 
-3
-Bayern München
-(0 - 0)
-31. Spieltag
-21.04. 15:30
-HSV
-1
- - 
-0
-SC Freiburg
-(0 - 0)
-31. Spieltag
-21.04. 15:30
-RB Leipzig
-2
- - 
-5
-TSG Hoffenheim
-(0 - 3)
-31. Spieltag
-21.04. 15:30
-VfB Stuttgart
-2
- - 
-0
-Werder Bremen
-(1 - 0)
-31. Spieltag
-20.04. 20:30
-Borussia Mönchengladbach
-3
- - 
-0
-VfL Wolfsburg
-(3 - 0)
-30. Spieltag
-16.04. 20:30
-FSV Mainz 05
-2
- - 
-0
-SC Freiburg
-(1 - 0)
-30. Spieltag
-15.04. 18:00
-Werder Bremen
-1
  - 
 1
-RB Leipzig
-(1 - 0)
-30. Spieltag
-15.04. 15:30
-FC Schalke 04
-2
- - 
-0
-Borussia Dortmund
-(0 - 0)
-30. Spieltag
-14.04. 18:30
-Bayern München
-5
- - 
-1
-Borussia Mönchengladbach
+El Raja
 (2 - 1)
-30. Spieltag
-14.04. 15:30
-Bayer Leverkusen
-4
+32. Spieltag
+$
+16.04. 18:00
+Al Ittihad
+0
  - 
-1
-Eintracht Frankfurt
-(1 - 1)
-30. Spieltag
-14.04. 15:30
-Hertha BSC
+0
+El Gaish
+(0 - 0)
+32. Spieltag
+$
+16.04. 15:30
+Pyramids
+3
+ - 
 2
- - 
-1
-1. FC Köln
+Petrojet
 (0 - 1)
-30. Spieltag
-14.04. 15:30
-TSG Hoffenheim
-2
- - 
-0
-HSV
-(2 - 0)
-30. Spieltag
-14.04. 15:30
-VfB Stuttgart
-1
- - 
-1
-Hannover 96
-(0 - 0)
-30. Spieltag
-13.04. 20:30
-VfL Wolfsburg
-0
- - 
-0
-FC Augsburg
-(0 - 0)
-29. Spieltag
-09.04. 20:30
-RB Leipzig
-1
- - 
-4
-Bayer Leverkusen
-(1 - 1)
-29. Spieltag
-08.04. 18:00
-Eintracht Frankfurt
-1
- - 
-1
-TSG Hoffenheim
-(0 - 0)
-29. Spieltag
-08.04. 15:30
-Borussia Dortmund
+31. Spieltag
+$
+13.04. 17:00
+Misr Elmaqasah
 3
  - 
 0
-VfB Stuttgart
-(1 - 0)
-29. Spieltag
-07.04. 18:30
-HSV
-3
+El Raja
+(0 - 0)
+31. Spieltag
+$
+12.04. 20:00
+Zamalek
+1
  - 
 2
-FC Schalke 04
-(1 - 1)
-29. Spieltag
-07.04. 15:30
-1. FC Köln
-1
- - 
-1
-FSV Mainz 05
+Al Ittihad
 (1 - 0)
-29. Spieltag
-07.04. 15:30
-Borussia Mönchengladbach
+31. Spieltag
+$
+12.04. 17:00
+El Masry
 2
  - 
 1
-Hertha BSC
+Al Nasr
 (0 - 1)
-29. Spieltag
-07.04. 15:30
-FC Augsburg
-1
- - 
-4
-Bayern München
-(1 - 2)
-29. Spieltag
-07.04. 15:30
-SC Freiburg
-0
- - 
-2
-VfL Wolfsburg
-(0 - 1)
-29. Spieltag
-06.04. 20:30
-Hannover 96
-2
- - 
-1
-Werder Bremen
-(2 - 0)
-28. Spieltag
-01.04. 18:00
-FSV Mainz 05
+31. Spieltag
+$
+08.04. 19:30
+Smouha
 0
  - 
 0
-Borussia Mönchengladbach
+Al Ahly
 (0 - 0)
 28. Spieltag
-01.04. 15:30
-Werder Bremen
-2
- - 
+$
+08.04. 17:00
+Misr Elmaqasah
 1
-Eintracht Frankfurt
-(1 - 0)
-28. Spieltag
-31.03. 20:30
-Hertha BSC
-0
  - 
 0
-VfL Wolfsburg
+Zamalek
 (0 - 0)
-28. Spieltag
-31.03. 18:30
-Bayern München
-6
+31. Spieltag
+$
+07.04. 17:30
+El Gaish
+1
  - 
-0
-Borussia Dortmund
-(5 - 0)
-28. Spieltag
-31.03. 15:30
-Bayer Leverkusen
-0
- - 
-0
-FC Augsburg
+1
+Ismaily
 (0 - 0)
-28. Spieltag
-31.03. 15:30
-FC Schalke 04
+31. Spieltag
+$
+07.04. 15:00
+Tanta
+0
+ - 
 2
- - 
-0
-SC Freiburg
-(0 - 0)
-28. Spieltag
-31.03. 15:30
-Hannover 96
-2
- - 
-3
-RB Leipzig
-(0 - 1)
-28. Spieltag
-31.03. 15:30
-TSG Hoffenheim
-6
- - 
-0
-1. FC Köln
-(1 - 0)
-28. Spieltag
-31.03. 15:30
-VfB Stuttgart
-1
- - 
-1
-HSV
-(1 - 1)
-27. Spieltag
-18.03. 18:00
-RB Leipzig
-2
- - 
-1
-Bayern München
-(1 - 1)
-27. Spieltag
-18.03. 15:30
-1. FC Köln
-2
- - 
-0
-Bayer Leverkusen
-(1 - 0)
-27. Spieltag
-18.03. 13:30
-Borussia Dortmund
-1
- - 
-0
-Hannover 96
-(1 - 0)
-27. Spieltag
-17.03. 18:30
-VfL Wolfsburg
-0
- - 
-1
-FC Schalke 04
-(0 - 0)
-27. Spieltag
-17.03. 15:30
-Borussia Mönchengladbach
-3
- - 
-3
-TSG Hoffenheim
-(1 - 1)
-27. Spieltag
-17.03. 15:30
-Eintracht Frankfurt
-3
- - 
-0
-FSV Mainz 05
-(3 - 0)
-27. Spieltag
-17.03. 15:30
-FC Augsburg
-1
- - 
-3
-Werder Bremen
+El Entag El Harby
 (0 - 2)
-27. Spieltag
-17.03. 15:30
-HSV
-1
+31. Spieltag
+$
+06.04. 18:00
+Enppi
+3
+ - 
+3
+El Daklyeh
+(1 - 2)
+31. Spieltag
+$
+05.04. 19:30
+Wadi Degla
+0
  - 
 2
-Hertha BSC
-(1 - 0)
-27. Spieltag
-16.03. 20:30
-SC Freiburg
-1
- - 
-2
-VfB Stuttgart
+Pyramids
 (0 - 1)
-26. Spieltag
-12.03. 20:30
-Werder Bremen
+31. Spieltag
+$
+05.04. 17:00
+Petrojet
+1
+ - 
+1
+Arab Contractors
+(0 - 0)
+25. Spieltag
+$
+03.04. 18:00
+Smouha
+1
+ - 
+0
+Misr Elmaqasah
+(1 - 0)
+30. Spieltag
+$
+02.04. 20:30
+Al Ahly
+2
+ - 
+1
+Tanta
+(0 - 0)
+30. Spieltag
+$
+02.04. 17:30
+Ismaily
 3
  - 
 1
-1. FC Köln
+Zamalek
+(1 - 1)
+25. Spieltag
+$
+31.03. 18:00
+El Masry
+0
+ - 
+2
+Al Ittihad
+(0 - 0)
+23. Spieltag
+$
+30.03. 18:00
+Misr Elmaqasah
+0
+ - 
+0
+Enppi
+(0 - 0)
+30. Spieltag
+$
+19.03. 18:30
+Al Ittihad
+2
+ - 
+2
+Petrojet
+(0 - 0)
+30. Spieltag
+$
+19.03. 18:30
+El Entag El Harby
+1
+ - 
+1
+Enppi
 (1 - 0)
-26. Spieltag
+30. Spieltag
+$
+19.03. 16:15
+Al Nasr
+0
+ - 
+1
+Misr Elmaqasah
+(0 - 1)
+30. Spieltag
+$
+19.03. 16:15
+Arab Contractors
+0
+ - 
+0
+Wadi Degla
+(0 - 0)
+30. Spieltag
+$
+19.03. 14:00
+El Raja
+1
+ - 
+0
+El Gaish
+(1 - 0)
+30. Spieltag
+$
+19.03. 14:00
+Pyramids
+0
+ - 
+0
+Smouha
+(0 - 0)
+29. Spieltag
+$
+15.03. 19:00
+El Daklyeh
+1
+ - 
+1
+Al Nasr
+(0 - 1)
+29. Spieltag
+$
+15.03. 16:30
+Smouha
+3
+ - 
+0
+Arab Contractors
+(0 - 0)
+29. Spieltag
+$
+15.03. 14:00
+Petrojet
+0
+ - 
+1
+Ismaily
+(0 - 1)
+29. Spieltag
+$
+14.03. 19:00
+Zamalek
+4
+ - 
+1
+El Raja
+(3 - 0)
+29. Spieltag
+$
+14.03. 16:30
+Wadi Degla
+1
+ - 
+0
+Al Ittihad
+(0 - 0)
+29. Spieltag
+$
+14.03. 14:00
+Tanta
+1
+ - 
+1
+Pyramids
+(0 - 1)
+29. Spieltag
+$
+13.03. 16:30
+El Gaish
+1
+ - 
+0
+Misr Elmaqasah
+(0 - 0)
+29. Spieltag
+$
+12.03. 18:00
+El Masry
+0
+ - 
+0
+El Entag El Harby
+(0 - 0)
+29. Spieltag
+$
 11.03. 18:00
-Borussia Dortmund
+Enppi
+0
+ - 
+1
+Al Ahly
+(0 - 1)
+28. Spieltag
+$
+07.03. 16:30
+Al Nasr
+1
+ - 
+0
+El Gaish
+(1 - 0)
+28. Spieltag
+$
+07.03. 14:00
+El Raja
+1
+ - 
+1
+Petrojet
+(1 - 1)
+28. Spieltag
+$
+06.03. 16:00
+Ismaily
+2
+ - 
+1
+Wadi Degla
+(1 - 0)
+28. Spieltag
+$
+06.03. 14:00
+Pyramids
+1
+ - 
+1
+Enppi
+(0 - 0)
+28. Spieltag
+$
+05.03. 19:00
+El Entag El Harby
+1
+ - 
+1
+El Daklyeh
+(0 - 1)
+28. Spieltag
+$
+05.03. 16:30
+Al Ittihad
+2
+ - 
+0
+Smouha
+(1 - 0)
+28. Spieltag
+$
+05.03. 14:00
+Arab Contractors
+1
+ - 
+1
+Tanta
+(1 - 0)
+27. Spieltag
+$
+02.03. 17:30
+El Masry
+3
+ - 
+1
+Pyramids
+(2 - 0)
+27. Spieltag
+$
+02.03. 15:00
+Petrojet
+0
+ - 
+0
+Misr Elmaqasah
+(0 - 0)
+27. Spieltag
+$
+01.03. 18:30
+Enppi
 3
  - 
 2
-Eintracht Frankfurt
-(1 - 0)
-26. Spieltag
-11.03. 15:30
-VfB Stuttgart
-0
+Arab Contractors
+(2 - 0)
+27. Spieltag
+$
+01.03. 16:00
+El Entag El Harby
+1
  - 
-0
-RB Leipzig
-(0 - 0)
-26. Spieltag
-10.03. 18:30
-Bayer Leverkusen
+1
+Al Nasr
+(1 - 1)
+27. Spieltag
+$
+01.03. 16:00
+Smouha
+1
+ - 
+2
+Ismaily
+(1 - 1)
+27. Spieltag
+$
+01.03. 13:45
+Wadi Degla
 2
  - 
+3
+El Raja
+(0 - 1)
+27. Spieltag
+$
+28.02. 17:00
+El Daklyeh
 0
-Borussia Mönchengladbach
-(1 - 0)
-26. Spieltag
-10.03. 15:30
-Bayern München
-6
+ - 
+3
+Al Ahly
+(0 - 0)
+27. Spieltag
+$
+28.02. 13:45
+Tanta
+0
+ - 
+1
+Al Ittihad
+(0 - 0)
+27. Spieltag
+$
+27.02. 19:00
+Zamalek
+3
  - 
 0
-HSV
+El Gaish
 (3 - 0)
 26. Spieltag
-10.03. 15:30
-Hannover 96
+$
+25.02. 18:30
+Misr Elmaqasah
+2
+ - 
+0
+Wadi Degla
+(1 - 0)
+26. Spieltag
+$
+25.02. 16:00
+Arab Contractors
 1
  - 
-3
-FC Augsburg
+2
+El Masry
+(1 - 1)
+26. Spieltag
+$
+24.02. 19:00
+Al Ahly
+2
+ - 
+1
+El Entag El Harby
+(1 - 1)
+26. Spieltag
+$
+24.02. 16:00
+Ismaily
+2
+ - 
+2
+Tanta
+(0 - 1)
+26. Spieltag
+$
+24.02. 13:30
+El Raja
+0
+ - 
+0
+Smouha
+(0 - 0)
+26. Spieltag
+$
+24.02. 13:30
+Pyramids
+4
+ - 
+2
+El Daklyeh
+(2 - 1)
+26. Spieltag
+$
+23.02. 16:00
+El Gaish
+1
+ - 
+2
+Petrojet
+(0 - 0)
+26. Spieltag
+$
+22.02. 19:00
+Al Nasr
+1
+ - 
+2
+Zamalek
 (1 - 2)
 26. Spieltag
-10.03. 15:30
-Hertha BSC
-0
- - 
-0
-SC Freiburg
-(0 - 0)
-26. Spieltag
-10.03. 15:30
-TSG Hoffenheim
-3
- - 
-0
-VfL Wolfsburg
-(1 - 0)
-26. Spieltag
-09.03. 20:30
-FSV Mainz 05
-0
+$
+22.02. 16:00
+Al Ittihad
+1
  - 
 1
-FC Schalke 04
+Enppi
 (0 - 0)
 25. Spieltag
-04.03. 18:00
-SC Freiburg
-0
- - 
-4
-Bayern München
-(0 - 2)
-25. Spieltag
-04.03. 15:30
-1. FC Köln
-2
- - 
-3
-VfB Stuttgart
-(1 - 2)
-25. Spieltag
-03.03. 18:30
-RB Leipzig
-1
- - 
-1
-Borussia Dortmund
-(1 - 1)
-25. Spieltag
-03.03. 15:30
-Eintracht Frankfurt
+$
+20.02. 18:30
+Wadi Degla
 1
  - 
 0
-Hannover 96
-(1 - 0)
-25. Spieltag
-03.03. 15:30
-FC Augsburg
-0
- - 
-2
-TSG Hoffenheim
-(0 - 1)
-25. Spieltag
-03.03. 15:30
-FC Schalke 04
-1
- - 
-0
-Hertha BSC
-(1 - 0)
-25. Spieltag
-03.03. 15:30
-HSV
-0
- - 
-0
-FSV Mainz 05
+El Gaish
 (0 - 0)
 25. Spieltag
-03.03. 15:30
-VfL Wolfsburg
+$
+20.02. 16:00
+El Daklyeh
 1
  - 
 2
-Bayer Leverkusen
-(0 - 1)
+Arab Contractors
+(1 - 0)
 25. Spieltag
-02.03. 20:30
-Borussia Mönchengladbach
-2
- - 
-2
-Werder Bremen
-(2 - 0)
-24. Spieltag
-26.02. 20:30
-Borussia Dortmund
-1
- - 
-1
-FC Augsburg
-(1 - 0)
-24. Spieltag
-25.02. 18:00
-RB Leipzig
-1
- - 
-2
-1. FC Köln
-(1 - 0)
-24. Spieltag
-25.02. 15:30
-Bayer Leverkusen
-0
- - 
-2
-FC Schalke 04
-(0 - 1)
-24. Spieltag
-24.02. 18:30
-Werder Bremen
+$
+20.02. 16:00
+El Entag El Harby
 1
  - 
 0
-HSV
+Pyramids
+(1 - 0)
+25. Spieltag
+$
+20.02. 13:30
+Tanta
+0
+ - 
+0
+El Raja
 (0 - 0)
-24. Spieltag
-24.02. 15:30
-Bayern München
-0
+25. Spieltag
+$
+19.02. 19:00
+Al Ahly
+5
  - 
 0
-Hertha BSC
-(0 - 0)
-24. Spieltag
-24.02. 15:30
-Hannover 96
-0
- - 
+Al Nasr
+(3 - 0)
+25. Spieltag
+$
+19.02. 16:00
+Petrojet
 1
-Borussia Mönchengladbach
-(0 - 0)
-24. Spieltag
-24.02. 15:30
-TSG Hoffenheim
-1
- - 
-1
-SC Freiburg
-(0 - 0)
-24. Spieltag
-24.02. 15:30
-VfB Stuttgart
-1
- - 
-0
-Eintracht Frankfurt
-(1 - 0)
-24. Spieltag
-23.02. 20:30
-FSV Mainz 05
-1
- - 
-1
-VfL Wolfsburg
-(1 - 1)
-23. Spieltag
-19.02. 20:30
-Eintracht Frankfurt
-2
- - 
-1
-RB Leipzig
-(2 - 1)
-23. Spieltag
-18.02. 18:00
-Borussia Mönchengladbach
-0
- - 
-1
-Borussia Dortmund
-(0 - 1)
-23. Spieltag
-18.02. 15:30
-FC Augsburg
-0
- - 
-1
-VfB Stuttgart
-(0 - 1)
-23. Spieltag
-17.02. 18:30
-FC Schalke 04
-2
- - 
-1
-TSG Hoffenheim
-(2 - 0)
-23. Spieltag
-17.02. 15:30
-1. FC Köln
-1
- - 
-1
-Hannover 96
-(1 - 1)
-23. Spieltag
-17.02. 15:30
-HSV
-1
- - 
-2
-Bayer Leverkusen
-(0 - 1)
-23. Spieltag
-17.02. 15:30
-SC Freiburg
-1
- - 
-0
-Werder Bremen
-(1 - 0)
-23. Spieltag
-17.02. 15:30
-VfL Wolfsburg
-1
- - 
-2
-Bayern München
-(1 - 0)
-23. Spieltag
-16.02. 20:30
-Hertha BSC
-0
- - 
-2
-FSV Mainz 05
-(0 - 1)
-22. Spieltag
-11.02. 18:00
-Werder Bremen
-3
- - 
-1
-VfL Wolfsburg
-(2 - 0)
-22. Spieltag
-11.02. 15:30
-VfB Stuttgart
-1
- - 
-0
-Borussia Mönchengladbach
-(1 - 0)
-22. Spieltag
-10.02. 18:30
-Bayern München
-2
- - 
-1
-FC Schalke 04
-(2 - 1)
-22. Spieltag
-10.02. 15:30
-Bayer Leverkusen
-0
- - 
-2
-Hertha BSC
-(0 - 1)
-22. Spieltag
-10.02. 15:30
-Borussia Dortmund
-2
- - 
-0
-HSV
-(0 - 0)
-22. Spieltag
-10.02. 15:30
-Eintracht Frankfurt
-4
- - 
-2
-1. FC Köln
-(1 - 0)
-22. Spieltag
-10.02. 15:30
-Hannover 96
-2
- - 
-1
-SC Freiburg
-(1 - 0)
-22. Spieltag
-10.02. 15:30
-TSG Hoffenheim
-4
- - 
-2
-FSV Mainz 05
-(1 - 1)
-22. Spieltag
-09.02. 20:30
-RB Leipzig
-2
- - 
-0
-FC Augsburg
-(1 - 0)
-21. Spieltag
-04.02. 18:00
-HSV
-1
- - 
-1
-Hannover 96
-(0 - 1)
-21. Spieltag
-04.02. 15:30
-FC Augsburg
-3
- - 
-0
-Eintracht Frankfurt
-(1 - 0)
-21. Spieltag
-03.02. 18:30
-Borussia Mönchengladbach
-0
- - 
-1
-RB Leipzig
-(0 - 0)
-21. Spieltag
-03.02. 15:30
-FC Schalke 04
-1
- - 
-2
-Werder Bremen
-(1 - 0)
-21. Spieltag
-03.02. 15:30
-FSV Mainz 05
-0
- - 
-2
-Bayern München
-(0 - 2)
-21. Spieltag
-03.02. 15:30
-Hertha BSC
-1
- - 
-1
-TSG Hoffenheim
-(0 - 1)
-21. Spieltag
-03.02. 15:30
-SC Freiburg
-0
- - 
-0
-Bayer Leverkusen
-(0 - 0)
-21. Spieltag
-03.02. 15:30
-VfL Wolfsburg
-1
- - 
-1
-VfB Stuttgart
-(1 - 0)
-21. Spieltag
-02.02. 20:30
-1. FC Köln
-2
  - 
 3
-Borussia Dortmund
-(0 - 1)
-20. Spieltag
-28.01. 18:00
-Hannover 96
-0
- - 
-1
-VfL Wolfsburg
-(0 - 0)
-20. Spieltag
-28.01. 15:30
-Bayer Leverkusen
+Zamalek
+(0 - 3)
+25. Spieltag
+$
+18.02. 18:30
+Enppi
 2
  - 
 0
-FSV Mainz 05
+Ismaily
 (0 - 0)
-20. Spieltag
-27.01. 18:30
-Werder Bremen
-0
- - 
-0
-Hertha BSC
-(0 - 0)
-20. Spieltag
-27.01. 15:30
-1. FC Köln
+24. Spieltag
+$
+16.02. 18:30
+Arab Contractors
 1
  - 
 1
-FC Augsburg
+El Entag El Harby
 (1 - 0)
-20. Spieltag
-27.01. 15:30
-Bayern München
+24. Spieltag
+$
+16.02. 18:30
+El Gaish
+0
+ - 
+1
+Smouha
+(0 - 1)
+24. Spieltag
+$
+16.02. 16:15
+Pyramids
+0
+ - 
+1
+Al Ahly
+(0 - 0)
+24. Spieltag
+$
+16.02. 13:30
+Misr Elmaqasah
+0
+ - 
+0
+Tanta
+(0 - 0)
+23. Spieltag
+$
+15.02. 18:30
+El Masry
+0
+ - 
+0
+El Raja
+(0 - 0)
+24. Spieltag
+$
+15.02. 16:00
+Al Nasr
+0
+ - 
+1
+Petrojet
+(0 - 0)
+24. Spieltag
+$
+14.02. 18:30
+Al Ittihad
+2
+ - 
+1
+El Daklyeh
+(1 - 0)
+24. Spieltag
+$
+14.02. 16:00
+Zamalek
+1
+ - 
+0
+Wadi Degla
+(0 - 0)
+23. Spieltag
+$
+12.02. 17:00
+Al Ahly
 5
  - 
 2
-TSG Hoffenheim
-(2 - 2)
-20. Spieltag
-27.01. 15:30
-Borussia Dortmund
-2
+Arab Contractors
+(2 - 1)
+23. Spieltag
+$
+12.02. 13:30
+Tanta
+0
+ - 
+1
+El Gaish
+(0 - 1)
+23. Spieltag
+$
+10.02. 16:15
+Smouha
+0
+ - 
+1
+Zamalek
+(0 - 0)
+23. Spieltag
+$
+10.02. 13:30
+Pyramids
+5
+ - 
+1
+Al Nasr
+(2 - 1)
+23. Spieltag
+$
+09.02. 18:30
+El Entag El Harby
+3
  - 
 2
-SC Freiburg
-(1 - 1)
-20. Spieltag
-27.01. 15:30
-RB Leipzig
+Al Ittihad
+(1 - 0)
+23. Spieltag
+$
+09.02. 16:00
+Wadi Degla
+2
+ - 
+1
+Petrojet
+(0 - 0)
+23. Spieltag
+$
+09.02. 13:45
+El Daklyeh
+0
+ - 
+0
+Ismaily
+(0 - 0)
+24. Spieltag
+$
+09.02. 13:45
+El Raja
+3
+ - 
+0
+Enppi
+(0 - 0)
+6. Spieltag
+$
+08.02. 18:00
+Arab Contractors
+0
+ - 
+3
+Al Ahly
+(0 - 2)
+22. Spieltag
+$
+05.02. 16:00
+Misr Elmaqasah
+1
+ - 
+4
+El Masry
+(0 - 2)
+22. Spieltag
+$
+04.02. 19:00
+Zamalek
+2
+ - 
+1
+Tanta
+(2 - 1)
+22. Spieltag
+$
+04.02. 16:15
+Al Ittihad
+0
+ - 
+3
+Al Ahly
+(0 - 1)
+22. Spieltag
+$
+04.02. 13:30
+El Gaish
+1
+ - 
+0
+Enppi
+(0 - 0)
+22. Spieltag
+$
+03.02. 16:00
+Ismaily
+2
+ - 
+0
+El Entag El Harby
+(1 - 0)
+22. Spieltag
+$
+03.02. 13:30
+El Raja
+0
+ - 
+1
+El Daklyeh
+(0 - 0)
+22. Spieltag
+$
+02.02. 18:30
+Al Nasr
+0
+ - 
+1
+Wadi Degla
+(0 - 1)
+22. Spieltag
+$
+02.02. 16:00
+Petrojet
+2
+ - 
+1
+Smouha
+(0 - 0)
+22. Spieltag
+$
+02.02. 13:45
+Arab Contractors
 1
  - 
 1
-HSV
+Pyramids
+(0 - 0)
+21. Spieltag
+$
+31.01. 19:00
+Enppi
+0
+ - 
+0
+Zamalek
+(0 - 0)
+21. Spieltag
+$
+31.01. 16:00
+El Masry
+0
+ - 
+0
+El Gaish
+(0 - 0)
+21. Spieltag
+$
+30.01. 19:00
+Al Ahly
+1
+ - 
+0
+Ismaily
+(0 - 0)
+21. Spieltag
+$
+30.01. 16:00
+Misr Elmaqasah
+2
+ - 
+2
+El Daklyeh
+(0 - 1)
+21. Spieltag
+$
+29.01. 18:30
+El Entag El Harby
+2
+ - 
+1
+El Raja
 (1 - 1)
+21. Spieltag
+$
+29.01. 16:00
+Smouha
+2
+ - 
+1
+Wadi Degla
+(1 - 0)
+21. Spieltag
+$
+29.01. 13:30
+Tanta
+0
+ - 
+0
+Petrojet
+(0 - 0)
+21. Spieltag
+$
+28.01. 16:00
+Arab Contractors
+2
+ - 
+2
+Al Nasr
+(1 - 2)
+21. Spieltag
+$
+28.01. 13:30
+Pyramids
+1
+ - 
+1
+Al Ittihad
+(0 - 1)
 20. Spieltag
-27.01. 15:30
-VfB Stuttgart
+$
+25.01. 16:00
+Misr Elmaqasah
+3
+ - 
+1
+El Entag El Harby
+(2 - 0)
+20. Spieltag
+$
+25.01. 13:30
+El Raja
+1
+ - 
+3
+Al Ahly
+(1 - 0)
+20. Spieltag
+$
+24.01. 19:00
+Zamalek
+0
+ - 
+1
+El Masry
+(0 - 0)
+20. Spieltag
+$
+24.01. 16:00
+El Gaish
 0
  - 
 2
-FC Schalke 04
+El Daklyeh
+(0 - 1)
+20. Spieltag
+$
+24.01. 16:00
+Petrojet
+1
+ - 
+0
+Enppi
+(0 - 0)
+20. Spieltag
+$
+24.01. 13:30
+Wadi Degla
+0
+ - 
+0
+Tanta
+(0 - 0)
+20. Spieltag
+$
+23.01. 16:00
+Al Nasr
+0
+ - 
+2
+Smouha
 (0 - 2)
 20. Spieltag
-26.01. 20:30
-Eintracht Frankfurt
-2
+$
+22.01. 16:00
+Ismaily
+1
  - 
-0
-Borussia Mönchengladbach
+1
+Pyramids
+(1 - 1)
+20. Spieltag
+$
+22.01. 13:30
+Al Ittihad
+1
+ - 
+1
+Arab Contractors
 (1 - 0)
 19. Spieltag
+$
 21.01. 18:00
-FC Schalke 04
-1
- - 
-1
-Hannover 96
-(1 - 0)
-19. Spieltag
-21.01. 15:30
-Bayern München
-4
- - 
+Al Ahly
 2
-Werder Bremen
-(1 - 1)
+ - 
+1
+Misr Elmaqasah
+(0 - 1)
 19. Spieltag
+$
 20.01. 18:30
-HSV
-0
+El Entag El Harby
+1
  - 
-2
-1. FC Köln
-(0 - 1)
+0
+El Gaish
+(0 - 0)
 19. Spieltag
-20.01. 15:30
-Borussia Mönchengladbach
-2
+$
+20.01. 16:00
+Enppi
+1
  - 
 0
-FC Augsburg
+Wadi Degla
 (1 - 0)
 19. Spieltag
-20.01. 15:30
-FSV Mainz 05
-3
- - 
+$
+20.01. 13:45
+El Masry
 2
-VfB Stuttgart
+ - 
+1
+Petrojet
 (1 - 1)
 19. Spieltag
-20.01. 15:30
-SC Freiburg
-2
- - 
+$
+19.01. 13:30
+Tanta
 1
-RB Leipzig
-(0 - 0)
+ - 
+0
+Smouha
+(1 - 0)
 19. Spieltag
-20.01. 15:30
-TSG Hoffenheim
+$
+18.01. 17:00
+El Daklyeh
 1
  - 
-4
-Bayer Leverkusen
+2
+Zamalek
 (0 - 1)
 19. Spieltag
-20.01. 15:30
-VfL Wolfsburg
-1
- - 
-3
-Eintracht Frankfurt
-(0 - 2)
-19. Spieltag
-19.01. 20:30
-Hertha BSC
-1
- - 
-1
-Borussia Dortmund
-(0 - 0)
-18. Spieltag
-14.01. 18:00
-Borussia Dortmund
-0
- - 
-0
-VfL Wolfsburg
-(0 - 0)
-18. Spieltag
-14.01. 15:30
-1. FC Köln
+$
+17.01. 18:30
+Arab Contractors
 2
  - 
+0
+Ismaily
+(1 - 0)
+19. Spieltag
+$
+17.01. 16:00
+Al Ittihad
+3
+ - 
+0
+Al Nasr
+(0 - 0)
+19. Spieltag
+$
+17.01. 13:30
+Pyramids
+3
+ - 
 1
-Borussia Mönchengladbach
+El Raja
+(2 - 1)
+18. Spieltag
+$
+16.01. 19:00
+El Gaish
+0
+ - 
+2
+Al Ahly
+(0 - 1)
+18. Spieltag
+$
+16.01. 16:00
+Wadi Degla
+0
+ - 
+0
+El Masry
+(0 - 0)
+18. Spieltag
+$
+14.01. 19:00
+Zamalek
+0
+ - 
+0
+El Entag El Harby
+(0 - 0)
+18. Spieltag
+$
+14.01. 16:00
+Smouha
+4
+ - 
+0
+Enppi
 (1 - 0)
 18. Spieltag
+$
+14.01. 13:30
+Petrojet
+1
+ - 
+1
+El Daklyeh
+(1 - 0)
+18. Spieltag
+$
 13.01. 18:30
-RB Leipzig
-3
- - 
+Al Nasr
 1
-FC Schalke 04
-(1 - 0)
-18. Spieltag
-13.01. 15:30
-Eintracht Frankfurt
-1
- - 
-1
-SC Freiburg
-(1 - 0)
-18. Spieltag
-13.01. 15:30
-FC Augsburg
-1
- - 
-0
-HSV
-(1 - 0)
-18. Spieltag
-13.01. 15:30
-Hannover 96
-3
  - 
 2
-FSV Mainz 05
-(2 - 2)
+Tanta
+(1 - 1)
 18. Spieltag
-13.01. 15:30
-VfB Stuttgart
-1
+$
+13.01. 16:00
+Ismaily
+0
  - 
 0
-Hertha BSC
+Al Ittihad
 (0 - 0)
 18. Spieltag
-13.01. 15:30
-Werder Bremen
+$
+13.01. 13:30
+El Raja
 1
  - 
-1
-TSG Hoffenheim
-(0 - 1)
+0
+Arab Contractors
+(0 - 0)
 18. Spieltag
-12.01. 20:30
-Bayer Leverkusen
-1
+$
+13.01. 13:30
+Misr Elmaqasah
+0
  - 
-3
-Bayern München
-(0 - 1)
+0
+Pyramids
+(0 - 0)
 17. Spieltag
-17.12. 18:00
-RB Leipzig
+$
+09.01. 19:00
+Al Nasr
 2
  - 
 3
-Hertha BSC
+Ismaily
+(1 - 0)
+17. Spieltag
+$
+09.01. 17:00
+El Gaish
+2
+ - 
+1
+Pyramids
+(1 - 0)
+17. Spieltag
+$
+08.01. 18:00
+Zamalek
+0
+ - 
+3
+Al Ahly
 (0 - 2)
 17. Spieltag
-17.12. 15:30
-Hannover 96
-4
- - 
-4
-Bayer Leverkusen
-(3 - 2)
-17. Spieltag
-16.12. 18:30
-Borussia Dortmund
-2
- - 
-1
-TSG Hoffenheim
-(0 - 1)
-17. Spieltag
-16.12. 15:30
-1. FC Köln
+$
+05.01. 18:30
+Wadi Degla
 1
  - 
-0
-VfL Wolfsburg
-(0 - 0)
-17. Spieltag
-16.12. 15:30
-Eintracht Frankfurt
 2
- - 
-2
-FC Schalke 04
-(1 - 0)
-17. Spieltag
-16.12. 15:30
-FC Augsburg
-3
- - 
-3
-SC Freiburg
+El Daklyeh
 (1 - 1)
 17. Spieltag
-16.12. 15:30
-VfB Stuttgart
-0
- - 
+$
+05.01. 16:00
+Petrojet
 1
-Bayern München
+ - 
+0
+El Entag El Harby
 (0 - 0)
 17. Spieltag
-16.12. 15:30
-Werder Bremen
-2
+$
+05.01. 16:00
+Smouha
+3
  - 
 2
-FSV Mainz 05
-(2 - 0)
+El Masry
+(1 - 0)
 17. Spieltag
-15.12. 20:30
-Borussia Mönchengladbach
-3
- - 
-1
-HSV
-(1 - 0)
-16. Spieltag
-13.12. 20:30
-Bayer Leverkusen
-1
- - 
+$
+05.01. 13:30
+Tanta
 0
-Werder Bremen
-(1 - 0)
-16. Spieltag
-13.12. 20:30
-Bayern München
-1
- - 
-0
-1. FC Köln
-(0 - 0)
-16. Spieltag
-13.12. 20:30
-FC Schalke 04
-3
- - 
-2
-FC Augsburg
-(1 - 0)
-16. Spieltag
-13.12. 20:30
-Hertha BSC
-3
  - 
 1
-Hannover 96
-(2 - 0)
-16. Spieltag
-13.12. 18:30
-TSG Hoffenheim
-1
- - 
-0
-VfB Stuttgart
-(0 - 0)
-16. Spieltag
-12.12. 20:30
-FSV Mainz 05
+Enppi
+(0 - 1)
+17. Spieltag
+$
+04.01. 16:00
+Misr Elmaqasah
 0
  - 
 2
-Borussia Dortmund
-(0 - 0)
-16. Spieltag
-12.12. 20:30
-HSV
-1
+Arab Contractors
+(0 - 1)
+17. Spieltag
+$
+04.01. 13:30
+El Raja
+0
  - 
-2
-Eintracht Frankfurt
-(1 - 2)
-16. Spieltag
-12.12. 20:30
-SC Freiburg
+0
+Al Ittihad
+(0 - 0)
+10. Spieltag
+$
+03.01. 18:00
+El Gaish
 1
  - 
 0
-Borussia Mönchengladbach
-(1 - 0)
-16. Spieltag
-12.12. 18:30
-VfL Wolfsburg
-1
- - 
-1
-RB Leipzig
-(1 - 0)
-15. Spieltag
-10.12. 18:00
-FC Augsburg
-1
- - 
-1
-Hertha BSC
+Zamalek
 (0 - 0)
-15. Spieltag
-10.12. 15:30
-Hannover 96
-2
- - 
+8. Spieltag
+$
+02.01. 18:00
+Al Nasr
 0
-TSG Hoffenheim
-(0 - 0)
-15. Spieltag
-10.12. 13:30
-1. FC Köln
-3
  - 
 4
-SC Freiburg
-(3 - 1)
-15. Spieltag
-09.12. 18:30
-Borussia Mönchengladbach
-1
- - 
-1
-FC Schalke 04
-(1 - 0)
-15. Spieltag
-09.12. 15:30
-Borussia Dortmund
-1
- - 
-2
-Werder Bremen
-(0 - 1)
-15. Spieltag
-09.12. 15:30
-Eintracht Frankfurt
-0
- - 
-1
-Bayern München
-(0 - 1)
-15. Spieltag
-09.12. 15:30
-HSV
-0
- - 
-0
-VfL Wolfsburg
-(0 - 0)
-15. Spieltag
-09.12. 15:30
-RB Leipzig
-2
- - 
-2
-FSV Mainz 05
-(2 - 1)
-15. Spieltag
-08.12. 20:30
-VfB Stuttgart
-0
- - 
-2
-Bayer Leverkusen
-(0 - 1)
-14. Spieltag
-03.12. 18:00
-VfL Wolfsburg
-3
- - 
-0
-Borussia Mönchengladbach
-(2 - 0)
-14. Spieltag
-03.12. 15:30
-Hertha BSC
-1
- - 
-2
-Eintracht Frankfurt
-(1 - 1)
-14. Spieltag
-02.12. 18:30
-FC Schalke 04
-2
- - 
-2
-1. FC Köln
-(1 - 0)
-14. Spieltag
-02.12. 15:30
-Bayer Leverkusen
-1
- - 
-1
-Borussia Dortmund
-(1 - 0)
-14. Spieltag
-02.12. 15:30
-Bayern München
-3
- - 
-1
-Hannover 96
-(1 - 1)
-14. Spieltag
-02.12. 15:30
-FSV Mainz 05
-1
- - 
-3
-FC Augsburg
+Al Ahly
 (0 - 2)
-14. Spieltag
-02.12. 15:30
-TSG Hoffenheim
-4
+16. Spieltag
+$
+30.12. 18:30
+El Entag El Harby
+2
  - 
 0
-RB Leipzig
+Wadi Degla
 (1 - 0)
-14. Spieltag
-02.12. 15:30
-Werder Bremen
-1
- - 
-0
-VfB Stuttgart
-(1 - 0)
-14. Spieltag
-01.12. 20:30
-SC Freiburg
-0
- - 
-0
-HSV
-(0 - 0)
-13. Spieltag
-26.11. 18:00
-1. FC Köln
+16. Spieltag
+$
+30.12. 16:00
+Arab Contractors
 0
  - 
 2
-Hertha BSC
+El Gaish
 (0 - 1)
-13. Spieltag
-26.11. 15:30
-HSV
+16. Spieltag
+$
+30.12. 13:45
+El Daklyeh
+0
+ - 
+0
+Smouha
+(0 - 0)
+16. Spieltag
+$
+30.12. 13:45
+Pyramids
+0
+ - 
+1
+Zamalek
+(0 - 0)
+16. Spieltag
+$
+29.12. 17:00
+Al Ahly
 3
  - 
 0
-TSG Hoffenheim
-(1 - 0)
-13. Spieltag
-25.11. 18:30
-Borussia Mönchengladbach
-2
- - 
-1
-Bayern München
-(2 - 0)
-13. Spieltag
-25.11. 15:30
-Borussia Dortmund
-4
- - 
-4
-FC Schalke 04
-(4 - 0)
-13. Spieltag
-25.11. 15:30
-Eintracht Frankfurt
-0
- - 
-1
-Bayer Leverkusen
+Petrojet
 (0 - 0)
-13. Spieltag
-25.11. 15:30
-FC Augsburg
-2
- - 
-1
-VfL Wolfsburg
-(0 - 1)
-13. Spieltag
-25.11. 15:30
-RB Leipzig
-2
- - 
-0
-Werder Bremen
-(1 - 0)
-13. Spieltag
-25.11. 15:30
-SC Freiburg
-2
- - 
-1
-FSV Mainz 05
-(0 - 0)
-13. Spieltag
-24.11. 20:30
-Hannover 96
-1
- - 
-1
-VfB Stuttgart
-(0 - 1)
-12. Spieltag
-19.11. 18:00
-Werder Bremen
-4
- - 
-0
-Hannover 96
-(1 - 0)
-12. Spieltag
-19.11. 15:30
-FC Schalke 04
-2
- - 
-0
-HSV
-(1 - 0)
-12. Spieltag
-18.11. 18:30
-Hertha BSC
-2
- - 
-4
-Borussia Mönchengladbach
-(1 - 3)
-12. Spieltag
-18.11. 15:30
-Bayer Leverkusen
+16. Spieltag
+$
+29.12. 14:00
+Al Ittihad
 2
  - 
 2
-RB Leipzig
+Misr Elmaqasah
 (1 - 1)
-12. Spieltag
-18.11. 15:30
-Bayern München
-3
- - 
-0
-FC Augsburg
-(2 - 0)
-12. Spieltag
-18.11. 15:30
-FSV Mainz 05
-1
- - 
-0
-1. FC Köln
-(1 - 0)
-12. Spieltag
-18.11. 15:30
-TSG Hoffenheim
-1
- - 
-1
-Eintracht Frankfurt
-(0 - 1)
-12. Spieltag
-18.11. 15:30
-VfL Wolfsburg
-3
- - 
-1
-SC Freiburg
-(2 - 0)
-12. Spieltag
-17.11. 20:30
-VfB Stuttgart
-2
- - 
-1
-Borussia Dortmund
-(1 - 1)
-11. Spieltag
-05.11. 18:00
-VfL Wolfsburg
-3
- - 
-3
-Hertha BSC
-(2 - 1)
-11. Spieltag
-05.11. 15:30
-1. FC Köln
-0
- - 
-3
-TSG Hoffenheim
-(0 - 1)
-11. Spieltag
-04.11. 18:30
-Borussia Dortmund
-1
- - 
-3
-Bayern München
-(0 - 2)
-11. Spieltag
-04.11. 15:30
-Borussia Mönchengladbach
-1
- - 
-1
-FSV Mainz 05
-(0 - 1)
-11. Spieltag
-04.11. 15:30
-FC Augsburg
-1
- - 
-1
-Bayer Leverkusen
-(0 - 0)
-11. Spieltag
-04.11. 15:30
-HSV
-3
- - 
-1
-VfB Stuttgart
-(1 - 0)
-11. Spieltag
-04.11. 15:30
-RB Leipzig
-2
- - 
-1
-Hannover 96
-(0 - 0)
-11. Spieltag
-04.11. 15:30
-SC Freiburg
-0
- - 
-1
-FC Schalke 04
-(0 - 0)
-11. Spieltag
-03.11. 20:30
-Eintracht Frankfurt
-2
- - 
-1
-Werder Bremen
-(1 - 1)
-10. Spieltag
-29.10. 18:00
-VfB Stuttgart
-3
- - 
-0
-SC Freiburg
-(2 - 0)
-10. Spieltag
-29.10. 15:30
-Werder Bremen
-0
- - 
-3
-FC Augsburg
-(0 - 2)
-10. Spieltag
-28.10. 18:30
-Bayern München
-2
- - 
-0
-RB Leipzig
-(2 - 0)
-10. Spieltag
-28.10. 15:30
-Bayer Leverkusen
-2
- - 
-1
-1. FC Köln
-(0 - 1)
-10. Spieltag
-28.10. 15:30
-FC Schalke 04
-1
- - 
-1
-VfL Wolfsburg
-(1 - 0)
-10. Spieltag
-28.10. 15:30
-Hannover 96
-4
- - 
-2
-Borussia Dortmund
-(2 - 1)
-10. Spieltag
-28.10. 15:30
-Hertha BSC
-2
- - 
-1
-HSV
-(1 - 0)
-10. Spieltag
-28.10. 15:30
-TSG Hoffenheim
-1
- - 
-3
-Borussia Mönchengladbach
-(1 - 0)
-10. Spieltag
-27.10. 20:30
-FSV Mainz 05
-1
- - 
-1
-Eintracht Frankfurt
-(0 - 1)
-9. Spieltag
-22.10. 18:00
-VfL Wolfsburg
-1
- - 
-1
-TSG Hoffenheim
-(0 - 0)
-9. Spieltag
-22.10. 15:30
-SC Freiburg
-1
- - 
-1
-Hertha BSC
-(0 - 0)
-9. Spieltag
-22.10. 13:30
-1. FC Köln
-0
- - 
-0
-Werder Bremen
-(0 - 0)
-9. Spieltag
-21.10. 18:30
-HSV
-0
- - 
-1
-Bayern München
-(0 - 0)
-9. Spieltag
-21.10. 15:30
-Borussia Mönchengladbach
-1
- - 
-5
-Bayer Leverkusen
-(1 - 0)
-9. Spieltag
-21.10. 15:30
-Eintracht Frankfurt
-2
- - 
-2
-Borussia Dortmund
-(0 - 1)
-9. Spieltag
-21.10. 15:30
-FC Augsburg
-1
- - 
-2
-Hannover 96
-(1 - 0)
-9. Spieltag
-21.10. 15:30
-RB Leipzig
-1
- - 
-0
-VfB Stuttgart
-(1 - 0)
-9. Spieltag
-20.10. 20:30
-FC Schalke 04
-2
- - 
-0
-FSV Mainz 05
-(1 - 0)
-8. Spieltag
-15.10. 18:00
-Werder Bremen
-0
- - 
-2
-Borussia Mönchengladbach
-(0 - 2)
-8. Spieltag
-15.10. 15:30
-Bayer Leverkusen
-2
- - 
-2
-VfL Wolfsburg
-(1 - 1)
-8. Spieltag
-14.10. 18:30
-Borussia Dortmund
-2
- - 
-3
-RB Leipzig
-(1 - 2)
-8. Spieltag
-14.10. 15:30
-Bayern München
-5
- - 
-0
-SC Freiburg
-(2 - 0)
-8. Spieltag
-14.10. 15:30
-FSV Mainz 05
-3
- - 
-2
-HSV
-(1 - 1)
-8. Spieltag
-14.10. 15:30
-Hannover 96
-1
- - 
-2
-Eintracht Frankfurt
-(1 - 1)
-8. Spieltag
-14.10. 15:30
-Hertha BSC
-0
- - 
-2
-FC Schalke 04
-(0 - 0)
-8. Spieltag
-14.10. 15:30
-TSG Hoffenheim
-2
- - 
-2
-FC Augsburg
-(0 - 0)
-8. Spieltag
-13.10. 20:30
-VfB Stuttgart
-2
- - 
-1
-1. FC Köln
-(1 - 0)
-7. Spieltag
-01.10. 18:00
-1. FC Köln
-1
- - 
-2
-RB Leipzig
-(0 - 1)
-7. Spieltag
-01.10. 15:30
-Hertha BSC
-2
- - 
-2
-Bayern München
-(0 - 1)
-7. Spieltag
-01.10. 13:30
-SC Freiburg
-3
- - 
-2
-TSG Hoffenheim
-(2 - 1)
-7. Spieltag
-30.09. 18:30
-HSV
-0
- - 
-0
-Werder Bremen
-(0 - 0)
-7. Spieltag
-30.09. 15:30
-Borussia Mönchengladbach
-2
- - 
-1
-Hannover 96
-(0 - 0)
-7. Spieltag
-30.09. 15:30
-Eintracht Frankfurt
-2
- - 
-1
-VfB Stuttgart
-(1 - 0)
-7. Spieltag
-30.09. 15:30
-FC Augsburg
-1
- - 
-2
-Borussia Dortmund
-(1 - 2)
-7. Spieltag
-30.09. 15:30
-VfL Wolfsburg
-1
- - 
-1
-FSV Mainz 05
-(0 - 0)
-7. Spieltag
-29.09. 20:30
-FC Schalke 04
-1
- - 
-1
-Bayer Leverkusen
-(1 - 0)
-6. Spieltag
-24.09. 18:00
-Bayer Leverkusen
-3
- - 
-0
-HSV
-(2 - 0)
-6. Spieltag
-24.09. 15:30
-Hannover 96
-0
- - 
-0
-1. FC Köln
-(0 - 0)
-6. Spieltag
-23.09. 18:30
-Borussia Dortmund
+16. Spieltag
+$
+28.12. 16:00
+El Masry
 6
  - 
-1
-Borussia Mönchengladbach
-(3 - 0)
-6. Spieltag
-23.09. 15:30
-FSV Mainz 05
-1
- - 
-0
-Hertha BSC
-(0 - 0)
-6. Spieltag
-23.09. 15:30
-RB Leipzig
-2
- - 
-1
-Eintracht Frankfurt
-(1 - 0)
-6. Spieltag
-23.09. 15:30
-TSG Hoffenheim
-2
- - 
-0
-FC Schalke 04
-(1 - 0)
-6. Spieltag
-23.09. 15:30
-VfB Stuttgart
-0
- - 
-0
-FC Augsburg
-(0 - 0)
-6. Spieltag
-23.09. 15:30
-Werder Bremen
-0
- - 
-0
-SC Freiburg
-(0 - 0)
-6. Spieltag
-22.09. 20:30
-Bayern München
-2
- - 
-2
-VfL Wolfsburg
-(2 - 0)
-5. Spieltag
-20.09. 20:30
-FSV Mainz 05
-2
- - 
 3
-TSG Hoffenheim
-(2 - 2)
-5. Spieltag
-20.09. 20:30
-Hertha BSC
-2
- - 
-1
-Bayer Leverkusen
-(2 - 0)
-5. Spieltag
-20.09. 20:30
-HSV
-0
- - 
-3
-Borussia Dortmund
-(0 - 1)
-5. Spieltag
-20.09. 20:30
-SC Freiburg
-1
- - 
-1
-Hannover 96
-(0 - 0)
-5. Spieltag
-20.09. 18:30
-1. FC Köln
-0
- - 
-1
-Eintracht Frankfurt
-(0 - 1)
-5. Spieltag
-19.09. 20:30
-FC Augsburg
-1
- - 
-0
-RB Leipzig
-(1 - 0)
-5. Spieltag
-19.09. 20:30
-FC Schalke 04
-0
- - 
-3
-Bayern München
-(0 - 2)
-5. Spieltag
-19.09. 20:30
-VfL Wolfsburg
-1
- - 
-1
-Werder Bremen
-(1 - 0)
-5. Spieltag
-19.09. 18:30
-Borussia Mönchengladbach
-2
- - 
-0
-VfB Stuttgart
-(0 - 0)
-4. Spieltag
-17.09. 18:00
-Borussia Dortmund
+Tanta
+(3 - 2)
+16. Spieltag
+$
+27.12. 16:00
+Ismaily
 5
  - 
 0
-1. FC Köln
-(2 - 0)
-4. Spieltag
-17.09. 15:30
-Bayer Leverkusen
-4
+El Raja
+(0 - 0)
+16. Spieltag
+$
+27.12. 13:45
+Enppi
+1
+ - 
+1
+Al Nasr
+(0 - 1)
+15. Spieltag
+$
+26.12. 18:00
+Zamalek
+1
  - 
 0
-SC Freiburg
-(3 - 0)
-4. Spieltag
-17.09. 13:30
-TSG Hoffenheim
-1
- - 
-1
-Hertha BSC
+Arab Contractors
 (1 - 0)
-4. Spieltag
-16.09. 18:30
-RB Leipzig
+15. Spieltag
+$
+25.12. 18:00
+Wadi Degla
+1
+ - 
+1
+Al Ahly
+(0 - 0)
+15. Spieltag
+$
+25.12. 15:00
+El Gaish
+0
+ - 
+0
+Al Ittihad
+(0 - 0)
+15. Spieltag
+$
+24.12. 16:00
+Smouha
 2
  - 
+1
+El Entag El Harby
+(1 - 0)
+15. Spieltag
+$
+24.12. 13:45
+Petrojet
+1
+ - 
 2
-Borussia Mönchengladbach
+Pyramids
+(0 - 0)
+15. Spieltag
+$
+23.12. 18:00
+El Raja
+0
+ - 
+0
+Al Nasr
+(0 - 0)
+15. Spieltag
+$
+23.12. 16:00
+Misr Elmaqasah
+1
+ - 
+4
+Ismaily
+(0 - 3)
+15. Spieltag
+$
+23.12. 13:45
+Tanta
+1
+ - 
+2
+El Daklyeh
+(1 - 0)
+15. Spieltag
+$
+22.12. 16:00
+Enppi
+2
+ - 
+1
+El Masry
+(2 - 0)
+14. Spieltag
+$
+20.12. 19:00
+Al Ahly
+2
+ - 
+1
+Smouha
+(1 - 0)
+14. Spieltag
+$
+20.12. 16:00
+Al Ittihad
+0
+ - 
+2
+Zamalek
+(0 - 1)
+14. Spieltag
+$
+20.12. 13:45
+Pyramids
+0
+ - 
+2
+Wadi Degla
+(0 - 0)
+14. Spieltag
+$
+19.12. 18:30
+Arab Contractors
+2
+ - 
+0
+Petrojet
+(1 - 0)
+14. Spieltag
+$
+19.12. 16:00
+El Entag El Harby
+1
+ - 
+0
+Tanta
+(0 - 0)
+14. Spieltag
+$
+19.12. 16:00
+Ismaily
+1
+ - 
+1
+El Gaish
+(1 - 1)
+14. Spieltag
+$
+19.12. 13:45
+El Raja
+1
+ - 
+1
+Misr Elmaqasah
+(1 - 0)
+14. Spieltag
+$
+18.12. 18:30
+El Daklyeh
+1
+ - 
+2
+Enppi
+(0 - 0)
+14. Spieltag
+$
+18.12. 16:00
+Al Nasr
+2
+ - 
+3
+El Masry
 (2 - 1)
-4. Spieltag
-16.09. 15:30
-Bayern München
+13. Spieltag
+$
+15.12. 18:30
+Petrojet
+2
+ - 
+0
+Al Ittihad
+(0 - 0)
+13. Spieltag
+$
+15.12. 16:00
+Tanta
+1
+ - 
+1
+Al Ahly
+(0 - 1)
+13. Spieltag
+$
+15.12. 13:45
+Smouha
+1
+ - 
+3
+Pyramids
+(1 - 1)
+13. Spieltag
+$
+14.12. 19:00
+Zamalek
+0
+ - 
+1
+Ismaily
+(0 - 0)
+13. Spieltag
+$
+14.12. 16:00
+Wadi Degla
+2
+ - 
+0
+Arab Contractors
+(2 - 0)
+13. Spieltag
+$
+14.12. 13:45
+Misr Elmaqasah
+1
+ - 
+4
+Al Nasr
+(1 - 1)
+13. Spieltag
+$
+13.12. 18:30
+Enppi
+2
+ - 
+0
+El Entag El Harby
+(1 - 0)
+13. Spieltag
+$
+13.12. 16:00
+El Masry
+1
+ - 
+1
+El Daklyeh
+(0 - 0)
+13. Spieltag
+$
+13.12. 13:45
+El Gaish
+2
+ - 
+1
+El Raja
+(1 - 0)
+2. Spieltag
+$
+10.12. 18:00
+Misr Elmaqasah
+3
+ - 
+2
+Al Ahly
+(1 - 1)
+7. Spieltag
+$
+06.12. 18:00
+Al Ahly
+1
+ - 
+0
+Pyramids
+(0 - 0)
+12. Spieltag
+$
+04.12. 18:30
+Misr Elmaqasah
 4
  - 
 0
-FSV Mainz 05
-(2 - 0)
-4. Spieltag
-16.09. 15:30
-Eintracht Frankfurt
+El Gaish
+(1 - 0)
+12. Spieltag
+$
+04.12. 16:00
+El Entag El Harby
 1
  - 
-2
-FC Augsburg
+1
+El Masry
 (0 - 1)
-4. Spieltag
-16.09. 15:30
-VfB Stuttgart
-1
+12. Spieltag
+$
+04.12. 13:45
+Al Nasr
+0
  - 
 0
-VfL Wolfsburg
-(1 - 0)
-4. Spieltag
-16.09. 15:30
-Werder Bremen
-1
- - 
-2
-FC Schalke 04
-(1 - 1)
-4. Spieltag
-15.09. 20:30
-Hannover 96
-2
- - 
-0
-HSV
+El Daklyeh
 (0 - 0)
-3. Spieltag
-10.09. 18:00
-FC Schalke 04
+12. Spieltag
+$
+03.12. 18:30
+Arab Contractors
+0
+ - 
 3
+Smouha
+(0 - 2)
+12. Spieltag
+$
+03.12. 16:00
+Al Ittihad
+4
  - 
-1
-VfB Stuttgart
-(1 - 1)
-3. Spieltag
-10.09. 15:30
-Hertha BSC
-1
- - 
-1
-Werder Bremen
+0
+Wadi Degla
 (1 - 0)
-3. Spieltag
-09.09. 18:30
-TSG Hoffenheim
-2
- - 
-0
-Bayern München
-(1 - 0)
-3. Spieltag
-09.09. 15:30
-Borussia Mönchengladbach
-0
- - 
-1
-Eintracht Frankfurt
-(0 - 1)
-3. Spieltag
-09.09. 15:30
-FC Augsburg
-3
- - 
-0
-1. FC Köln
-(2 - 0)
-3. Spieltag
-09.09. 15:30
-FSV Mainz 05
-3
- - 
-1
-Bayer Leverkusen
-(1 - 1)
-3. Spieltag
-09.09. 15:30
-SC Freiburg
+12. Spieltag
+$
+03.12. 13:45
+Ismaily
 0
  - 
 0
-Borussia Dortmund
+Petrojet
 (0 - 0)
-3. Spieltag
-09.09. 15:30
-VfL Wolfsburg
-1
- - 
-1
-Hannover 96
-(0 - 0)
-3. Spieltag
-08.09. 20:30
-HSV
-0
- - 
-2
-RB Leipzig
-(0 - 0)
-2. Spieltag
-27.08. 18:00
-Hannover 96
-1
- - 
-0
-FC Schalke 04
-(0 - 0)
-2. Spieltag
-27.08. 15:30
-RB Leipzig
+12. Spieltag
+$
+02.12. 19:00
+Al Ahly
 4
  - 
 1
-SC Freiburg
+Enppi
+(2 - 1)
+12. Spieltag
+$
+02.12. 16:15
+El Raja
+1
+ - 
+1
+Zamalek
+(1 - 0)
+12. Spieltag
+$
+02.12. 13:45
+Pyramids
+2
+ - 
+1
+Tanta
+(1 - 0)
+11. Spieltag
+$
+29.11. 18:30
+Wadi Degla
+1
+ - 
+2
+Ismaily
 (0 - 1)
-2. Spieltag
-26.08. 18:30
-Borussia Dortmund
-2
+11. Spieltag
+$
+29.11. 16:00
+Smouha
+1
  - 
-0
-Hertha BSC
+1
+Al Ittihad
 (1 - 0)
-2. Spieltag
-26.08. 15:30
-Bayer Leverkusen
-2
- - 
-2
-TSG Hoffenheim
-(1 - 0)
-2. Spieltag
-26.08. 15:30
-Eintracht Frankfurt
+11. Spieltag
+$
+29.11. 13:45
+El Daklyeh
 0
  - 
 1
-VfL Wolfsburg
-(0 - 1)
-2. Spieltag
-26.08. 15:30
-FC Augsburg
-2
+El Entag El Harby
+(0 - 0)
+11. Spieltag
+$
+28.11. 19:00
+El Masry
+0
  - 
 2
-Borussia Mönchengladbach
+Al Ahly
+(0 - 1)
+11. Spieltag
+$
+28.11. 16:00
+Enppi
+0
+ - 
+0
+Pyramids
+(0 - 0)
+11. Spieltag
+$
+28.11. 13:45
+Tanta
+0
+ - 
+1
+Arab Contractors
+(0 - 0)
+11. Spieltag
+$
+27.11. 19:00
+Zamalek
+1
+ - 
+3
+Misr Elmaqasah
 (1 - 2)
-2. Spieltag
-26.08. 15:30
-VfB Stuttgart
-1
- - 
-0
-FSV Mainz 05
-(0 - 0)
-2. Spieltag
-26.08. 15:30
-Werder Bremen
-0
- - 
-2
-Bayern München
-(0 - 0)
-2. Spieltag
-25.08. 20:30
-1. FC Köln
+11. Spieltag
+$
+27.11. 16:00
+El Gaish
 1
  - 
 3
-HSV
+Al Nasr
 (0 - 2)
-1. Spieltag
-20.08. 18:00
-Borussia Mönchengladbach
+11. Spieltag
+$
+27.11. 13:45
+Petrojet
+0
+ - 
 1
- - 
-0
-1. FC Köln
+El Raja
 (0 - 0)
-1. Spieltag
-20.08. 15:30
-SC Freiburg
-0
- - 
-0
-Eintracht Frankfurt
-(0 - 0)
-1. Spieltag
-19.08. 18:30
-FC Schalke 04
+10. Spieltag
+$
+24.11. 19:00
+Al Ahly
 2
  - 
 0
-RB Leipzig
+El Daklyeh
 (1 - 0)
-1. Spieltag
-19.08. 15:30
-FSV Mainz 05
-0
- - 
+10. Spieltag
+$
+24.11. 16:00
+Ismaily
 1
-Hannover 96
-(0 - 0)
-1. Spieltag
-19.08. 15:30
-Hertha BSC
+ - 
+0
+Smouha
+(1 - 0)
+10. Spieltag
+$
+23.11. 18:30
+Arab Contractors
 2
  - 
-0
-VfB Stuttgart
-(0 - 0)
-1. Spieltag
-19.08. 15:30
-HSV
-1
- - 
-0
-FC Augsburg
-(1 - 0)
-1. Spieltag
-19.08. 15:30
-TSG Hoffenheim
-1
- - 
-0
-Werder Bremen
-(0 - 0)
-1. Spieltag
-19.08. 15:30
-VfL Wolfsburg
-0
- - 
-3
-Borussia Dortmund
-(0 - 2)
-1. Spieltag
-18.08. 20:30
-Bayern München
-3
- - 
-1
-Bayer Leverkusen
+2
+Enppi
 (2 - 0)
+10. Spieltag
+$
+23.11. 16:00
+Al Nasr
+0
+ - 
+1
+El Entag El Harby
+(0 - 1)
+10. Spieltag
+$
+23.11. 13:45
+Pyramids
+1
+ - 
+2
+El Masry
+(1 - 2)
+10. Spieltag
+$
+22.11. 16:00
+Misr Elmaqasah
+2
+ - 
+0
+Petrojet
+(1 - 0)
+10. Spieltag
+$
+22.11. 13:45
+El Raja
+3
+ - 
+3
+Wadi Degla
+(2 - 0)
+10. Spieltag
+$
+21.11. 17:00
+Al Ittihad
+1
+ - 
+1
+Tanta
+(0 - 0)
+4. Spieltag
+$
+20.11. 18:00
+Ismaily
+0
+ - 
+2
+Al Ahly
+(0 - 0)
+9. Spieltag
+$
+18.11. 16:00
+El Masry
+1
+ - 
+0
+Arab Contractors
+(0 - 0)
+9. Spieltag
+$
+17.11. 19:00
+Zamalek
+2
+ - 
+1
+Al Nasr
+(1 - 0)
+9. Spieltag
+$
+17.11. 16:00
+Petrojet
+2
+ - 
+0
+El Gaish
+(2 - 0)
+9. Spieltag
+$
+16.11. 19:00
+El Entag El Harby
+1
+ - 
+2
+Al Ahly
+(1 - 1)
+9. Spieltag
+$
+16.11. 16:00
+Smouha
+1
+ - 
+0
+El Raja
+(0 - 0)
+9. Spieltag
+$
+16.11. 13:45
+Tanta
+0
+ - 
+1
+Ismaily
+(0 - 1)
+9. Spieltag
+$
+15.11. 18:30
+Wadi Degla
+3
+ - 
+3
+Misr Elmaqasah
+(2 - 1)
+9. Spieltag
+$
+15.11. 16:00
+Enppi
+2
+ - 
+0
+Al Ittihad
+(0 - 0)
+9. Spieltag
+$
+15.11. 13:45
+El Daklyeh
+2
+ - 
+0
+Pyramids
+(2 - 0)
+8. Spieltag
+$
+05.11. 16:30
+Misr Elmaqasah
+2
+ - 
+0
+Smouha
+(0 - 0)
+8. Spieltag
+$
+04.11. 18:30
+El Gaish
+0
+ - 
+0
+Wadi Degla
+(0 - 0)
+8. Spieltag
+$
+04.11. 16:00
+Al Ittihad
+0
+ - 
+1
+El Masry
+(0 - 1)
+8. Spieltag
+$
+04.11. 13:45
+Pyramids
+3
+ - 
+1
+El Entag El Harby
+(3 - 1)
+8. Spieltag
+$
+03.11. 17:00
+Zamalek
+3
+ - 
+0
+Petrojet
+(2 - 0)
+8. Spieltag
+$
+03.11. 13:45
+El Raja
+0
+ - 
+1
+Tanta
+(0 - 0)
+8. Spieltag
+$
+02.11. 16:00
+Ismaily
+1
+ - 
+1
+Enppi
+(1 - 1)
+8. Spieltag
+$
+02.11. 13:45
+Arab Contractors
+1
+ - 
+1
+El Daklyeh
+(0 - 0)
+7. Spieltag
+$
+29.10. 18:00
+Wadi Degla
+0
+ - 
+3
+Zamalek
+(0 - 0)
+7. Spieltag
+$
+28.10. 14:45
+Petrojet
+2
+ - 
+0
+Al Nasr
+(2 - 0)
+7. Spieltag
+$
+27.10. 19:30
+El Entag El Harby
+2
+ - 
+3
+Arab Contractors
+(0 - 1)
+7. Spieltag
+$
+27.10. 17:00
+Enppi
+2
+ - 
+0
+El Raja
+(0 - 0)
+7. Spieltag
+$
+27.10. 16:45
+El Masry
+1
+ - 
+2
+Ismaily
+(1 - 1)
+7. Spieltag
+$
+27.10. 14:45
+El Daklyeh
+2
+ - 
+2
+Al Ittihad
+(2 - 1)
+7. Spieltag
+$
+26.10. 17:00
+Smouha
+0
+ - 
+1
+El Gaish
+(0 - 0)
+7. Spieltag
+$
+26.10. 14:45
+Tanta
+3
+ - 
+3
+Misr Elmaqasah
+(3 - 0)
+6. Spieltag
+$
+20.10. 20:00
+Zamalek
+0
+ - 
+3
+Smouha
+(0 - 1)
+6. Spieltag
+$
+20.10. 17:00
+Ismaily
+2
+ - 
+1
+El Daklyeh
+(2 - 1)
+6. Spieltag
+$
+20.10. 14:45

@@ -45,7 +45,7 @@ public class SeleniumReadData {
 
         //Zu Website navigieren
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.navigate().to("https://www.scoreboard.com/de/fussball/" + land + "/" + liga + saison + "/ergebnisse/");
+        driver.navigate().to("https://www.scoreboard.com/de/fussball/" + land + "/" + liga + "-" + saison + "/ergebnisse/");
         Thread.sleep(1000);
         //"Mehr Spiele Anzeigen" Button betätigen, wenn vorhanden
         if (driver.findElements(By.id("onetrust-accept-btn-handler")).size() != 0) {
@@ -62,7 +62,6 @@ public class SeleniumReadData {
             WebDriverWait wait = new WebDriverWait(driver, 60);
             wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.className("event__participant--home"), anzahlElemente));
             anzahlElemente = driver.findElements(By.className("event__participant--home")).size();
-            Thread.sleep(1500);
         }
         listdata(driver,land);
     }
@@ -71,57 +70,141 @@ public class SeleniumReadData {
         System.out.println("Start Listdata");
         neu = driver.findElements(By.className("event__match--oneLine"));
         spieltag = driver.findElements(By.className("event__round"));
-            FileWriter writer = new FileWriter("reader.txt");
-            String za = "";
-            boolean ht = false;
-            boolean es = false;
-            gameday = spieltag.get(0).getText();
-            int x= 0;
-
-            for(int i = 0; i < neu.size(); i++) {
-                if (x + 1 < spieltag.size()) {
-                    if (neu.get(i).getLocation().getY() > spieltag.get(x).getLocation().getY() && neu.get(i).getLocation().getY() < spieltag.get(x + 1).getLocation().getY()) {
-                    } else {
-                        x++;
-                        gameday = spieltag.get(x).getText();
-                    }
-                }
-                ht = true;
-                za = neu.get(i).getText();
-                if(!za.contains("(") || za.contains("Beschluss")){
-                    ht = false;
-                }
-                if(za.contains("n.E.")){
-                    es = true;
-                }
-                if(gameday.contains("Spieltag")){
-                if(ht){
-                    if(es){
-                        writer.write(gameday+"\n");
-                        writer.write("#ES\n");
-                        writer.write(za+"\n");
-                    }else{
-                        writer.write(gameday+"\n");
-                        writer.write(za+"\n");
-                    }
-                }
-                else {
-                    if(es){
-                        writer.write(gameday+"\n");
-                        writer.write("#NOHT"+"#ES\n");
-                        writer.write(za+"\n");
-                    }else{
-                        writer.write(gameday+"\n");
-                        writer.write("#NOHT\n");
-                        writer.write(za+"\n");
-                    }
-                }
+        FileWriter writer = new FileWriter("reader.txt");
+        String za = "";
+        String htString = "";
+        String esString = "";
+        String bsString = "";
+        gameday = spieltag.get(0).getText();
+        int x= 0;
+        System.out.println(neu.size());
+        for(int i = 0; i < neu.size(); i++) {
+            if (x + 1 < spieltag.size()) {
+                if (neu.get(i).getLocation().getY() > spieltag.get(x).getLocation().getY() && neu.get(i).getLocation().getY() < spieltag.get(x + 1).getLocation().getY()) {
+                } else {
+                    x++;
+                    gameday = spieltag.get(x).getText();
                 }
             }
+            za = neu.get(i).getText();
+            if(gameday.contains("Spieltag")){
+                if(!za.contains("(")){
+                    htString = "#NOHT";
+                }else{
+                    htString = "";
+                }
+                if(za.contains("Beschluss")){
+                    bsString = "#BS";
+                }else{
+                    bsString = "";
+                }
+                if(za.contains("n.E.")){
+                    esString = "#ES";
+                }else{
+                    esString = "";
+                }
+                writer.write(gameday+"\n");
+                writer.write("$"+htString+esString+bsString+"\n");
+                writer.write(za+"\n");
+                System.out.println(i);
+            }
+        }
+        readtxt();
+    }
+    public void readtxt() throws IOException, ParseException {
+        FileReader file = new FileReader("reader.txt");
+        BufferedReader reader = new BufferedReader(file);
+        boolean change = false;
+        String jahr;
+        String line = "start";
+        if (saison.length() == 4) {
+            jahr = saison;
+        } else {
+            jahr = saison.substring(5, 9);
+        }
+        boolean ht = true;
+        boolean es = false;
+        boolean bs = false;
 
-            writer.close();
+        while (line != null) {
+            line = reader.readLine();
+            System.out.println(line.length()+" " + line);
+            if (line.length() == 12) {
+                gamedaysql = Integer.parseInt(line.substring(0, 2));
+            } else {
+                gamedaysql = Integer.parseInt(line.substring(0, 1));
+            }
+            line = reader.readLine();
+            if (line.contains("#ES") || line.contains("#NOHT") || line.contains("#BS")) {
+                if (line.contains("#ES")) {
+                    es = true;
+                } else {
+                    es = false;
+                }
+                if (line.contains("#NOHT")) {
+                    ht = false;
+                } else {
+                    ht = true;
+                }
+                if (line.contains("#BS")) {
+                    bs = true;
+                } else {
+                    bs = false;
+                }
+            } else {
+                ht = true;
+                es = false;
+                bs = false;
+            }
+            line = reader.readLine();
+            if (saison.length() > 5) {
+                if (line.length() == 12 && change == false) {
+                    jahr = saison.substring(0, 4);
+                    change = true;
+                }
+                java.util.Date date2 = new SimpleDateFormat("dd.MM.yyyy").parse(line.substring(0, 6) + jahr);
+                sqldate = new java.sql.Date(date2.getTime());
 
+                if (bs == true || es == true) {
+                    line = reader.readLine();
+                }
 
+                line = reader.readLine();
+
+                home = line.replace("'", "\\'");
+
+                line = reader.readLine();
+
+                homegoals = Integer.parseInt(line);
+
+                line = reader.readLine();
+                line = reader.readLine();
+
+                awaygoals = Integer.parseInt(line);
+
+                if (es) {
+                    line = reader.readLine();
+                    line = reader.readLine();
+                    line = reader.readLine();
+                    line = reader.readLine();
+                    line = reader.readLine();
+                }
+
+                line = reader.readLine();
+                ;
+
+                away = line.replace("'", "\\'");
+                line = reader.readLine();
+
+                if (ht == false || bs == true) {
+                } else {
+                    homegoalsht = Integer.parseInt(line.substring(1, 2));
+                    awaygoalsht = Integer.parseInt(line.substring(5, 6));
+                }
+            }
+            System.out.println("Land: "+land+" || Liga: " +liga+" || Saison: "+saison+" || Heim: " +home+ " || Auswaerts: "+away+" ||  "+homegoals+" - "+awaygoals+" " +"("+homegoalsht+" - "+awaygoalsht+")  "+ sqldate  );
+        }
+    }
 //        spieltag = driver.findElements(By.className("event__round"));
 //        datum = driver.findElements(By.className("event__time"));
 //        heimmannschaft = driver.findElements(By.className("event__participant--home"));
@@ -135,30 +218,6 @@ public class SeleniumReadData {
 //        System.out.println("Auswaertsmannschaft: "+auswaertsmannschaft.size());
 //        //System.out.println("halbzeitstand: "+halbzeitstand.size());
 //        checkdata(spieltag, datum, heimmannschaft, endstand, auswaertsmannschaft, halbzeitstand,land);
-        driver.close();
-        driver.quit();
-    }
-
-    public void readout () throws IOException {
-        FileReader file = new FileReader("C:\\Users\\Kai\\IdeaProjects\\Sport_Database\\reader.txt");
-        BufferedReader reader = new BufferedReader(file);
-
-        String line = reader.readLine();
-        while(line != null){
-            if(!line.contains("Spieltag")){
-                gameday = line;
-                if (gameday.length() == 11) {
-                    gamedaysql = Integer.parseInt(gameday.substring(0, 1));
-                }else{
-                    gamedaysql = Integer.parseInt(gameday.substring(0, 2));
-                }
-              line = reader.readLine();
-            }
-            if(line.contains("#NOHT")){
-
-            }
-        }
-    }
 
     public void checkdata(List<WebElement> spieltag, List<WebElement> datum, List<WebElement> heimmannschaft,
                           List<WebElement> endstand, List<WebElement> auswaertsmannschaft, List<WebElement> halbzeitstand,String land) throws ParseException, SQLException, FileNotFoundException {
