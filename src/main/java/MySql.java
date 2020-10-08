@@ -6,16 +6,22 @@ public class MySql {
     String user = "root";
     String password = "1234";
 
-    public void einlesen(Date Datum, String Verein_Heim, String Verein_Auswaerts, int Tore_Heim, int Tore_Auswaerts, int Spieltag, String Saison,  String Land, String Liga) throws SQLException {
+    public void einlesen(Date Datum, String Verein_Heim, String Verein_Auswaerts, int Tore_Heim, int Tore_Auswaerts, int Spieltag, String Saison,int tore_heim_halbzeit, int tore_auswaerts_halbzeit,  String Land, String Liga) throws SQLException {
         Connection myConnection = DriverManager.getConnection(url, user, password);
         checktableexist(Land,myConnection);
         PreparedStatement Statement = myConnection.prepareStatement("Select * from "+Land+ " WHERE verein_heim = "+"'"+Verein_Heim+"'"+" AND verein_auswaerts = " +"'"+Verein_Auswaerts+"'"+ " AND datum = " +"'"+ Datum+"'");
         ResultSet result = Statement.executeQuery();
         if(!result.next()) {
             Statement myStatement = myConnection.createStatement();
-            String sql = "INSERT INTO " + Land + "(datum, verein_heim, verein_auswaerts, tore_heim, tore_auswaerts, spieltag, saison, land, liga) " +
-                    "VALUES ('" + Datum + "','" + Verein_Heim + "','" + Verein_Auswaerts + "','" + Tore_Heim + "','" + Tore_Auswaerts + "','" + Spieltag + "','" + Saison +  "','" + Land + "','" + Liga + "')";
-            myStatement.execute(sql);
+            if(tore_heim_halbzeit == 100){
+                String sql = "INSERT INTO " + Land + "(datum, verein_heim, verein_auswaerts, tore_heim, tore_auswaerts, spieltag, saison,land, liga) " +
+                        "VALUES ('" + Datum + "','" + Verein_Heim + "','" + Verein_Auswaerts + "','" + Tore_Heim + "','" + Tore_Auswaerts + "','" + Spieltag + "','" + Saison +   "','" + Land + "','" + Liga + "')";
+                myStatement.execute(sql);
+            }else {
+                String sql = "INSERT INTO " + Land + "(datum, verein_heim, verein_auswaerts, tore_heim, tore_auswaerts, spieltag, saison,tore_heim_halbzeit, tore_auswaerts_halbzeit,land, liga) " +
+                        "VALUES ('" + Datum + "','" + Verein_Heim + "','" + Verein_Auswaerts + "','" + Tore_Heim + "','" + Tore_Auswaerts + "','" + Spieltag + "','" + Saison + "','" + tore_heim_halbzeit + "','" + tore_auswaerts_halbzeit + "','" + Land + "','" + Liga + "')";
+                myStatement.execute(sql);
+            }
         }
         else{
         }
@@ -28,12 +34,12 @@ public class MySql {
         }
         else {
             PreparedStatement statement = con.prepareStatement(
-                    "CREATE TABLE " +land+ "(datum DATE NOT NULL, verein_heim VARCHAR(50) NOT NULL, verein_auswaerts VARCHAR(50) NOT NULL, tore_heim INT NOT NULL, tore_auswaerts INT NOT NULL, spieltag INT, saison VARCHAR(20), land VARCHAR(50), liga VARCHAR(50));");
+                    "CREATE TABLE " +land+ "(datum DATE NOT NULL, verein_heim VARCHAR(50) NOT NULL, verein_auswaerts VARCHAR(50) NOT NULL, tore_heim INT NOT NULL, tore_auswaerts INT NOT NULL, spieltag INT, saison VARCHAR(20), tore_heim_halbzeit INT, tore_auswaerts_halbzeit INT, land VARCHAR(50), liga VARCHAR(50));");
             statement.execute();
             PreparedStatement statement2 = con.prepareStatement("ALTER TABLE "+land+" ADD CONSTRAINT PK PRIMARY KEY (datum,verein_heim,verein_auswaerts);");
             statement2.execute();
             PreparedStatement statement3 = con.prepareStatement(
-                    "CREATE TABLE " +land+"_upcoming"+"(datum DATE NOT NULL, verein_heim VARCHAR(50) NOT NULL, verein_auswaerts VARCHAR(50) NOT NULL, tore_heim INT NOT NULL, tore_auswaerts INT NOT NULL, spieltag INT, saison VARCHAR(20), land VARCHAR(50), liga VARCHAR(50));");
+                    "CREATE TABLE " +land+"_upcoming"+"(datum DATE NOT NULL, verein_heim VARCHAR(50) NOT NULL, verein_auswaerts VARCHAR(50) NOT NULL, tore_heim INT NOT NULL, tore_auswaerts INT NOT NULL, spieltag INT, saison VARCHAR(20), tore_heim_halbzeit INT, tore_auswaerts_halbzeit INT, land VARCHAR(50), liga VARCHAR(50));");
             statement3.execute();
             PreparedStatement statement4 = con.prepareStatement("ALTER TABLE "+land+"_upcoming"+" ADD CONSTRAINT PK PRIMARY KEY (datum,verein_heim,verein_auswaerts);");
             statement4.execute();

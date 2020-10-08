@@ -36,7 +36,6 @@ public class Main {
         int Saisoncounter = 1;
         linereader = reader.readLine();
         boolean corona=false;
-        int counter = 1;
         while(linereader != null){
             if(linereader.contains("XXX") || linereader.contains("XX#")){
                 if(linereader.contains("XX#")){
@@ -48,7 +47,6 @@ public class Main {
                     land = linereader.substring(3);
                 }
                 linereader=reader.readLine();
-                counter++;
             } else {
                 switch(Saisoncounter){
                     case 1:
@@ -56,10 +54,11 @@ public class Main {
                             System.out.println(land+" "+linereader+" "+Saison4);
                             data.readWebsite(land.substring(2),linereader+"-",Saison4);
                             Saisoncounter++;
+                        }else {
+                            System.out.println(land + " " + linereader + " " + Saison1);
+                            data.readWebsite(land, linereader + "-", Saison1);
+                            Saisoncounter++;
                         }
-                        System.out.println(land+" "+linereader+" "+Saison1);
-                        data.readWebsite(land,linereader+"-",Saison1);
-                        Saisoncounter++;
                     case 2:
                         if(land.contains("#S")) {
                             System.out.println(land + " " + linereader + " " + Saison5);
@@ -92,8 +91,8 @@ public class Main {
                         }
                     default:
                         linereader=reader.readLine();
+                        System.out.println(linereader);
                         Saisoncounter = 1;
-                        break;
                 }
             }
         }
