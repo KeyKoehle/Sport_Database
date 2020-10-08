@@ -7,16 +7,9 @@ import java.text.ParseException;
 
 public class Main {
 
-    public static String p;
-    public static WebElement element = null;
-    public static WebDriver driver = null;
-    public static Actions action;
-    public static int i = 0;
-
     public static void main (String [] args) throws InterruptedException, ParseException, SQLException, IOException {
         Main main = new Main ();
         main.read();
-
     }
 
     public void read () throws IOException, InterruptedException, ParseException, SQLException {

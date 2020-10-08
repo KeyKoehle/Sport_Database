@@ -71,7 +71,6 @@ public class SeleniumReadData {
         String bsString = "";
         gameday = spieltag.get(0).getText();
         int x= 0;
-        System.out.println(neu.size());
         for(int i = 0; i < neu.size(); i++) {
             if (x + 1 < spieltag.size()) {
                 if (neu.get(i).getLocation().getY() > spieltag.get(x).getLocation().getY() && neu.get(i).getLocation().getY() < spieltag.get(x + 1).getLocation().getY()) {
@@ -126,9 +125,9 @@ public class SeleniumReadData {
         } else {
             jahr = saison.substring(5, 9);
         }
-        boolean ht = true;
-        boolean es = false;
-        boolean bs = false;
+        boolean ht;
+        boolean es;
+        boolean bs;
 
         while (line != null) {
             System.out.println("Start  "+line);
@@ -171,20 +170,13 @@ public class SeleniumReadData {
                 if (bs == true || es == true) {
                     line = reader.readLine();
                 }
-
                 line = reader.readLine();
-
                 home = line.replace("'", "\\'");
-
                 line = reader.readLine();
-
                 homegoals = Integer.parseInt(line);
-
                 line = reader.readLine();
                 line = reader.readLine();
-
                 awaygoals = Integer.parseInt(line);
-
                 if (es) {
                     line = reader.readLine();
                     line = reader.readLine();
@@ -192,15 +184,11 @@ public class SeleniumReadData {
                     line = reader.readLine();
                     line = reader.readLine();
                 }
-
                 line = reader.readLine();
-
                 away = line.replace("'", "\\'");
-
                 if (ht == false || bs == true) {
                     homegoalsht = 100;
                     awaygoalsht = 100;
-                    System.out.println("KEINE HT");
                 } else {
                     line=reader.readLine();
                     homegoalsht = Integer.parseInt(line.substring(1, 2));
