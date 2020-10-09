@@ -48,13 +48,17 @@ public class SeleniumReadData {
         while (driver.findElements(By.xpath("/html/body/div[4]/div[1]/div/div[1]/div[2]/div[4]/div[2]/div[1]/div/div/a")).size() != 0) {
             element = driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/div[1]/div[2]/div[4]/div[2]/div[1]/div/div/a"));
             scroll = driver.findElement(By.xpath("/html/body/div[5]/div/div[1]/div[1]/div[1]"));
+            Thread.sleep(1000);
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.scrollBy(0,250)");
+            Thread.sleep(1000);
             action = new Actions(driver);
             action.moveToElement(element).click().perform();
+            Thread.sleep(1000);
             WebDriverWait wait = new WebDriverWait(driver, 60);
             wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(By.className("event__participant--home"), anzahlElemente));
             anzahlElemente = driver.findElements(By.className("event__participant--home")).size();
+            Thread.sleep(1000);
         }
         listdata(driver,land);
     }
@@ -113,6 +117,7 @@ public class SeleniumReadData {
         FileReader file = new FileReader("reader.txt");
         BufferedReader reader = new BufferedReader(file);
         boolean change = false;
+        boolean inkonsitenz = false;
         String line = reader.readLine();
         System.out.println("INI  :"+line);
         MySql data = new MySql();
@@ -186,16 +191,38 @@ public class SeleniumReadData {
                 }
                 line = reader.readLine();
                 away = line.replace("'", "\\'");
+                inkonsitenz = false;
                 if (ht == false || bs == true) {
+                    line = reader.readLine();
+                    if(line!=null) {
+                        if (line.contains("(") && line != null) {
+                            inkonsitenz = true;
+                        }
+                    }
                     homegoalsht = 100;
                     awaygoalsht = 100;
                 } else {
                     line=reader.readLine();
-                    homegoalsht = Integer.parseInt(line.substring(1, 2));
-                    awaygoalsht = Integer.parseInt(line.substring(5, 6));
+                    if(line.substring(4,5).contains("-")){
+                        homegoalsht = Integer.parseInt(line.substring(0,2));
+                        awaygoalsht = Integer.parseInt(line.substring(6,7));
+                    }
+                    else {
+                        if(line.length()== 8 && line.substring(3,4).contains("-")){
+                            homegoalsht = Integer.parseInt(line.substring(1,2));
+                            awaygoalsht = Integer.parseInt(line.substring(5,7));
+                        }
+                        else {
+                            homegoalsht = Integer.parseInt(line.substring(1,2));
+                            awaygoalsht = Integer.parseInt(line.substring(5,6));
+                        }
+                    }
+                    line= reader.readLine();
                 }
             }
-            line = reader.readLine();
+            if(inkonsitenz) {
+                line = reader.readLine();
+            }
             System.out.println(sqldate+" "+home+" "+away);
             data.einlesen(sqldate,home,away,homegoals,awaygoals,gamedaysql,saison,homegoalsht,awaygoalsht,land,liga);
         }

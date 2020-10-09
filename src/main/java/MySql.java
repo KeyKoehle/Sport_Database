@@ -25,6 +25,7 @@ public class MySql {
         }
         else{
         }
+        myConnection.close();
     }
 
     public void checktableexist(String land, Connection con) throws SQLException {
